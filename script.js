@@ -1,5 +1,313 @@
 var quizdata = {
-    "ALLMCQ1": [
+    "MS52FMT1": [
+        {
+            problem: "1. A radiologist examines a scan that shows the brain cut into superior and inferior parts. Which plane did the image use?",
+            img: "",
+            choices: "Coronal plane///Midsagittal plane///Sagittal plane///Transverse plane///Oblique plane",
+            answer: "Transverse plane",
+            select: "",
+            explain: "Plane ที่แบ่งร่างกายออกเป็นส่วนบน (superior) และส่วนล่าง (inferior) เรียกว่า Transverse plane หรือ Axial plane หรือ Horizontal plane ส่วน Coronal plane แบ่งเป็นส่วนหน้า (anterior) และหลัง (posterior) และ Sagittal plane แบ่งเป็นซ้าย (left) และขวา (right)",
+            state: false
+        },
+        {
+            problem: "2. A physiotherapist asks a patient to move their arm away from the midline in the frontal plane. Which type of movement is being demonstrated?",
+            img: "",
+            choices: "Adduction///Abduction///Rotation///Flexion///Extension",
+            answer: "Abduction",
+            select: "",
+            explain: "Abduction คือการเคลื่อนไหวแขนหรือขาออกจากแนวกลางลำตัว (midline) ส่วน Adduction คือการเคลื่อนไหวเข้าหาแนวกลางลำตัว (movement toward the midline) การเคลื่อนไหวนี้เกิดขึ้นใน frontal plane",
+            state: false
+        },
+        {
+            problem: "3. What type of bone is the vertebra classified as based on anatomical classification?",
+            img: "",
+            choices: "Short bone///Irregular bone///Sesamoid bone///Long bone///Flat bone",
+            answer: "Irregular bone",
+            select: "",
+            explain: "Vertebra หรือกระดูกสันหลังมีรูปร่างที่ซับซ้อนและไม่สามารถจัดเข้ากลุ่มอื่นได้ จึงจัดเป็น Irregular bone ส่วน Long bone เช่น femur, Short bone เช่น carpal bones, Flat bone เช่น sternum และ Sesamoid bone เช่น patella",
+            state: false
+        },
+        {
+            problem: "4. Which of the following joints is classified as a saddle joint?",
+            img: "",
+            choices: "First carpometacarpal joint///Knee joint///Hip joint///Shoulder joint///Elbow joint",
+            answer: "First carpometacarpal joint",
+            select: "",
+            explain: "Saddle joint เป็นข้อต่อที่มีลักษณะคล้ายอานม้า ทำให้เคลื่อนไหวได้สองแกน (biaxial) ตัวอย่างที่ชัดเจนที่สุดคือ First carpometacarpal joint (ข้อต่อระหว่างกระดูกฝ่ามือชิ้นที่หนึ่งกับกระดูกข้อมือ) ทำให้สามารถเคลื่อนไหวนิ้วโป้งได้อย่างอิสระ ส่วน Knee และ Elbow เป็น Hinge joint ส่วน Hip และ Shoulder เป็น Ball-and-socket joint",
+            state: false
+        },
+        {
+            problem: "5. A patient is unable to dorsiflex the foot and has sensory loss over the dorsal aspect of the foot. Which spinal nerve is most likely affected?",
+            img: "",
+            choices: "L2///L4///S1///L3///L5",
+            answer: "L5",
+            select: "",
+            explain: "อาการไม่สามารถกระดกข้อเท้าขึ้น (dorsiflexion) หรือเรียกว่า foot drop และสูญเสียการรับความรู้สึกบริเวณหลังเท้า (dorsal aspect) บ่งชี้ถึงการบาดเจ็บของ Deep fibular nerve ซึ่งได้รับ innervation หลักมาจาก L5 spinal nerve",
+            state: false
+        },
+        {
+            problem: "6. Which path of the spinal nerve innervates the deep muscles and skin of the back?",
+            img: "",
+            choices: "Ventral root///Dorsal ramus///Ventral ramus///Dorsal root///White ramus communicantes",
+            answer: "Dorsal ramus",
+            select: "",
+            explain: "Spinal nerve หลังจากออกจาก intervertebral foramen จะแบ่งออกเป็น 2 แขนงหลักคือ Dorsal ramus และ Ventral ramus โดย Dorsal ramus จะไปเลี้ยงกล้ามเนื้อส่วนลึกของหลัง (deep muscles of the back) และผิวหนังบริเวณหลัง",
+            state: false
+        },
+        {
+            problem: "7. Which ligament prevents the herniation of the intervertebral disc in lumbar overextension?",
+            img: "",
+            choices: "Ligamentum flavum///Supraspinous ligament///Intertransverse ligament///Anterior longitudinal ligament///Posterior longitudinal ligament",
+            answer: "Anterior longitudinal ligament",
+            select: "",
+            explain: "Anterior longitudinal ligament เป็น ligament ที่แข็งแรงและทอดยาวอยู่ด้านหน้าของ vertebral bodies มีหน้าที่จำกัดการแอ่นหลังมากเกินไป (hyperextension) จึงช่วยป้องกันการเกิดหมอนรองกระดูกเคลื่อนไปทางด้านหน้า",
+            state: false
+        },
+        {
+            problem: "8. Which muscle is the most powerful extension of the arm while swimming or rowing boat?",
+            img: "",
+            choices: "Teres major///Trapezius///Triceps brachii///Deltoid///Latissimus dorsi",
+            answer: "Latissimus dorsi",
+            select: "",
+            explain: "Latissimus dorsi เป็นกล้ามเนื้อที่ทรงพลังที่สุดในการทำหน้าที่ extension, adduction และ medial rotation ของแขน ซึ่งเป็นท่าทางหลักในการว่ายน้ำหรือพายเรือ",
+            state: false
+        },
+        {
+            problem: "9. Which of these structures passes through the suboccipital triangle?",
+            img: "",
+            choices: "Posterior spinal artery///Greater occipital nerve///Anterior spinal artery///Lesser occipital nerve///Suboccipital nerve",
+            answer: "Suboccipital nerve",
+            select: "",
+            explain: "Suboccipital triangle มี structure สำคัญ 2 อย่างที่ผ่านคือ Vertebral artery และ Suboccipital nerve (dorsal ramus of C1) ส่วน Greater occipital nerve จะอยู่ผิวเผินกว่า ไม่ได้ผ่านเข้าไปใน triangle",
+            state: false
+        },
+        {
+            problem: "10. A 52-year-old man develops weakness in extending and rotating the head to one side after an injury. Which of the following muscles is most likely affected?",
+            img: "",
+            choices: "Semispinalis capitis///Levator scapulae///Splenius capitis///Sternocleidomastoid///Trapezius",
+            answer: "Splenius capitis",
+            select: "",
+            explain: "Splenius capitis ทำหน้าที่ extend ศีรษะเมื่อทำงานร่วมกันสองข้าง และ rotate ศีรษะไปทางด้านเดียวกัน (ipsilateral rotation) เมื่อทำงานข้างเดียว อาการดังกล่าวจึงตรงกับการทำงานของกล้ามเนื้อมัดนี้ ส่วน Sternocleidomastoid จะ rotate ศีรษะไปทางตรงข้าม (contralateral rotation)",
+            state: false
+        },
+        {
+            problem: "11. A rock climber falls on his left shoulder, resulting in a fracture of the lesser tubercle of the humerus. Which of the following structures would most likely have functional damage?",
+            img: "",
+            choices: "Subscapularis///Teres minor///Supraspinatus///Trapezius///Latissimus dorsi",
+            answer: "Subscapularis",
+            select: "",
+            explain: "Lesser tubercle of the humerus เป็นจุดเกาะปลาย (insertion) ของกล้ามเนื้อ Subscapularis ซึ่งเป็นหนึ่งใน rotator cuff muscles ดังนั้นเมื่อเกิด fracture ที่ตำแหน่งนี้ กล้ามเนื้อ Subscapularis จะได้รับผลกระทบมากที่สุด",
+            state: false
+        },
+        {
+            problem: "12. The patient experienced an accident falling from a height, resulting in a tear of the root of C4-C5. Which of the following structures might be affected?",
+            img: "",
+            choices: "Deltoid///Subscapularis///Infraspinatus///Serratus anterior///Pectoralis minor",
+            answer: "Serratus anterior",
+            select: "",
+            explain: "แม้ว่า C4 จะไม่ได้เป็นส่วนหลักของ brachial plexus แต่ C5 root เป็นจุดกำเนิดของ Long thoracic nerve (ร่วมกับ C6 C7) ซึ่งไปเลี้ยงกล้ามเนื้อ Serratus anterior การบาดเจ็บที่ C5 root จึงอาจทำให้กล้ามเนื้อมัดนี้อ่อนแรงและเกิดอาการ winged scapula ได้",
+            state: false
+        },
+        {
+            problem: "13. Which group of lymph nodes is most commonly involved in breast cancer metastasis?",
+            img: "",
+            choices: "Parasternal node///Supraclavicular node///Deltopectoral node///Infraclavicular node///Axillary node",
+            answer: "Axillary node",
+            select: "",
+            explain: "ประมาณ 75% ของ lymphatic drainage จากเต้านมจะไหลไปยัง Axillary lymph nodes ทำให้เป็นตำแหน่งที่มะเร็งเต้านมแพร่กระจายไปบ่อยที่สุด",
+            state: false
+        },
+        {
+            problem: "14. Which of the following pathologies is related to the damage of the C5-C6 ventral rami?",
+            img: "",
+            choices: "Musculocutaneous nerve injury///Erb's palsy///Ulnar nerve injury///Winging of the scapula///Klumpke's palsy",
+            answer: "Erb's palsy",
+            select: "",
+            explain: "การบาดเจ็บของ C5-C6 ventral rami หรือ upper trunk ของ brachial plexus เรียกว่า Erb's palsy ทำให้เกิดอาการอ่อนแรงของกล้ามเนื้อที่เลี้ยงด้วยเส้นประสาทที่แตกแขนงออกไป เช่น deltoid biceps brachii ทำให้แขนอยู่ในท่า waiter's tip position",
+            state: false
+        },
+        {
+            problem: "15. A 25-year-old man presents to the emergency department after a motorbike accident. He has pain and swelling over the shoulder, and X-ray shows an anterior dislocation of the humeral head. During examination, he complains of numbness over the lateral aspect of the shoulder and weak abduction of the arm. Which of the following arteries is most likely at risk of injury in this condition?",
+            img: "",
+            choices: "Posterior circumflex humeral artery///Thoracoacromial artery///Anterior circumflex humeral artery///Subscapular artery///Suprascapular artery",
+            answer: "Posterior circumflex humeral artery",
+            select: "",
+            explain: "Anterior dislocation of the humeral head มักทำให้เกิดการบาดเจ็บต่อ Axillary nerve ซึ่งวิ่งรอบ surgical neck of humerus อาการชาบริเวณไหล่ด้านข้างและกล้ามเนื้อ deltoid อ่อนแรง (weak abduction) เป็นลักษณะเฉพาะของการบาดเจ็บนี้ โดย Posterior circumflex humeral artery จะวิ่งคู่ไปกับ Axillary nerve ผ่าน quadrangular space จึงมีความเสี่ยงที่จะบาดเจ็บไปด้วยกัน",
+            state: false
+        },
+        {
+            problem: "16. The physician plans for the patient's right shoulder surgery. Which of the following areas is appropriate for injection of an anesthetic solution into the surrounding axillary sheath that covers the terminal branch of the brachial plexus?",
+            img: "",
+            choices: "Deltopectoral triangle///Supraclavicular area///Axilla area///Infraclavicular area///Interscalene area",
+            answer: "Axilla area",
+            select: "",
+            explain: "การทำ Brachial plexus block เพื่อระงับความรู้สึกบริเวณแขน สามารถทำได้หลายตำแหน่ง แต่การฉีดยาชาเข้า Axillary sheath เพื่อ block terminal branches ของ brachial plexus จะทำในบริเวณรักแร้ หรือ Axilla area",
+            state: false
+        },
+        {
+            problem: "17. Which of the following muscles is formed the lateral border of cubital fossa?",
+            img: "",
+            choices: "Biceps brachii tendon///Brachioradialis///Anconeus///Palmaris longus///Pronator teres",
+            answer: "Brachioradialis",
+            select: "",
+            explain: "Cubital fossa เป็นแอ่งรูปสามเหลี่ยมบริเวณข้อพับศอก มีขอบเขตคือ medial border เกิดจาก Pronator teres, lateral border เกิดจาก Brachioradialis และ superior border เป็นเส้นสมมติลากระหว่าง medial และ lateral epicondyles of humerus",
+            state: false
+        },
+        {
+            problem: "18. A patient presented with median nerve injury. Which of the following muscles is paralyzed?",
+            img: "",
+            choices: "3rd and 4th lumbrical muscles///Abductor pollicis brevis///Palmaris brevis///Abductor digiti minimi///Adductor pollicis",
+            answer: "Abductor pollicis brevis",
+            select: "",
+            explain: "Median nerve เลี้ยงกล้ามเนื้อกลุ่ม thenar (ยกเว้น Adductor pollicis และ deep head of FPB) รวมถึง 1st และ 2nd lumbricals ด้วย ดังนั้น Abductor pollicis brevis ซึ่งเป็นกล้ามเนื้อกลุ่ม thenar จะเป็นอัมพาต ส่วนกล้ามเนื้อใน choice อื่นๆ ส่วนใหญ่เลี้ยงโดย Ulnar nerve",
+            state: false
+        },
+        {
+            problem: "19. Which of the following muscles has dual nerve supply?",
+            img: "",
+            choices: "Palmaris brevis///Palmaris longus///Lumbrical muscles///Dorsal interossei///Flexor carpi ulnaris",
+            answer: "Lumbrical muscles",
+            select: "",
+            explain: "Lumbrical muscles เป็นตัวอย่างคลาสสิกของกล้ามเนื้อที่มี dual nerve supply โดย lumbricals ที่ 1 และ 2 (ด้านนิ้วชี้และนิ้วกลาง) ถูกเลี้ยงโดย Median nerve ส่วน lumbricals ที่ 3 และ 4 (ด้านนิ้วนางและนิ้วก้อย) ถูกเลี้ยงโดย Ulnar nerve",
+            state: false
+        },
+        {
+            problem: "20. What is the action of abductor pollicis longus?",
+            img: "",
+            choices: "Flexion of thump///Radial abduction of thumb///Abduction of 2nd - 4th fingers///Palmar abduction of thumb///Opposition of thump",
+            answer: "Radial abduction of thumb",
+            select: "",
+            explain: "Abductor pollicis longus (APL) ทำหน้าที่กางนิ้วโป้งออกจากฝ่ามือในระนาบเดียวกับฝ่ามือ หรือที่เรียกว่า Radial abduction of thumb หรือ extension of thumb at CMC joint",
+            state: false
+        },
+        {
+            problem: "21. A 45-year-old housemaid is admitted to the orthopedic clinic with symptoms of carpal tunnel syndrome. Which of the following nerves is most likely compressed?",
+            img: "",
+            choices: "Ulnar nerve///Median nerve///Axillary nerve///Musculocutaneous nerve///Radial nerve",
+            answer: "Median nerve",
+            select: "",
+            explain: "Carpal tunnel syndrome คือภาวะที่มีการกดทับเส้นประสาท Median nerve บริเวณข้อมือ ซึ่งลอดผ่าน Carpal tunnel ทำให้เกิดอาการชา ปวด หรืออ่อนแรงบริเวณฝ่ามือและนิ้วมือที่เลี้ยงโดยเส้นประสาทนี้",
+            state: false
+        },
+        {
+            problem: "22. A young woman suffered fracturing her humerus at spiral groove with inability to extend the wrist joints. Which of the following nerves is most likely injured?",
+            img: "",
+            choices: "Musculocutaneous nerve///Axillary nerve///Ulnar nerve///Median nerve///Radial nerve",
+            answer: "Radial nerve",
+            select: "",
+            explain: "Spiral groove (หรือ Radial groove) ของกระดูก humerus เป็นตำแหน่งที่ Radial nerve ทอดตัวผ่านอย่างใกล้ชิด การแตกหักของกระดูกบริเวณนี้จึงมีความเสี่ยงสูงที่จะทำให้ Radial nerve บาดเจ็บ ส่งผลให้กล้ามเนื้อ extensors ของข้อมือและนิ้วมืออ่อนแรง เกิดภาวะข้อมือตก หรือ wrist drop",
+            state: false
+        },
+        {
+            problem: "23. A 5-year-old girl played with her older brother when he aggressively pulled her forearm. She cried but stopped when her dad attempted to find the injury by pronating and supinating her hand. What condition did she have?",
+            img: "",
+            choices: "Acromioclavicular dislocation///Smith fracture///Shoulder dislocation///Colles fracture///Nursemaid's elbow",
+            answer: "Nursemaid's elbow",
+            select: "",
+            explain: "Nursemaid's elbow หรือ radial head subluxation เป็นภาวะที่พบบ่อยในเด็กเล็ก เกิดจากการถูกดึงแขนอย่างแรง ทำให้ annular ligament เคลื่อนไปติดขัดที่หัวของกระดูก radius เด็กจะมีอาการปวดและไม่ยอมใช้แขนข้างนั้น การทำ supination และ flexion หรือ hyperpronation สามารถทำให้ ligament กลับเข้าที่และหายปวดได้ทันที",
+            state: false
+        },
+        {
+            problem: "24. If the physician wants to prove a tendinitis or tearing of the long head of the biceps brachii tendon and transverse humeral ligament, which of the following examination should be conducted?",
+            img: "",
+            choices: "Passive range of motion///Dugas test///Drop arm test///Hawkins-Kennedy test///Yergason's test",
+            answer: "Yergason's test",
+            select: "",
+            explain: "Yergason's test เป็นการทดสอบทางกายภาพเพื่อประเมินความมั่นคงของ long head of biceps tendon ใน bicipital groove และการอักเสบของเอ็นกล้ามเนื้อ (bicipital tendinitis) โดยให้ผู้ป่วยงอข้อศอก 90 องศาและพยายามทำ supination ต้านแรงของผู้ตรวจ",
+            state: false
+        },
+        {
+            problem: "25. Which of the following structures is locates between the anterior scalene and middle scalene muscles?",
+            img: "",
+            choices: "Subclavian artery///Internal jugular vein///Common carotid artery///Subclavian vein///Brachial plexus",
+            answer: "Brachial plexus",
+            select: "",
+            explain: "ช่องว่างระหว่างกล้ามเนื้อ Anterior scalene และ Middle scalene เรียกว่า interscalene triangle เป็นทางผ่านของโครงสร้างสำคัญ 2 อย่างคือ Subclavian artery และ Trunks of the brachial plexus ส่วน Subclavian vein จะผ่านทางด้านหน้าของ Anterior scalene muscle",
+            state: false
+        },
+        {
+            problem: "26. Which of the following arteries is the most inferior branch of the external carotid artery?",
+            img: "",
+            choices: "Ascending pharyngeal artery///Superior thyroid artery///Occipital artery///Vertebral artery///Inferior thyroid artery",
+            answer: "Superior thyroid artery",
+            select: "",
+            explain: "Superior thyroid artery เป็นแขนงแรกที่แยกออกจากด้านหน้า (anterior aspect) ของ External carotid artery และอยู่ต่ำที่สุดในบรรดาแขนงทั้งหมด ส่วน Vertebral artery และ Inferior thyroid artery เป็นแขนงของ Subclavian artery",
+            state: false
+        },
+        {
+            problem: "27. A 62-year-old man presented to the hospital, with a two-year history of asymptomatic swelling in the right side of neck. On examination, there was a 3x2cm swelling just right of the midline which moved with swallowing. He was diagnosed as schwannoma of ansa cervicalis. Which of the following muscles is the most likely paralyze?",
+            img: "",
+            choices: "Omohyoid///Stylohyoid///Thyrohyoid///Sternocleidomastoid///Mylohyoid",
+            answer: "Omohyoid",
+            select: "",
+            explain: "Ansa cervicalis เป็น nerve loop ที่เลี้ยงกล้ามเนื้อกลุ่ม infrahyoid muscles ซึ่งได้แก่ sternohyoid, sternothyroid และ omohyoid การเกิดเนื้องอกของเส้นประสาทนี้ (schwannoma) จะทำให้กล้ามเนื้อที่ถูกเลี้ยงโดยเส้นประสาทนี้เป็นอัมพาตได้ Omohyoid จึงเป็นคำตอบที่ถูกต้อง",
+            state: false
+        },
+        {
+            problem: "28. Which of the following structures is surrounded by the visceral portion of the pretracheal fascia?",
+            img: "",
+            choices: "Sternohyoid muscle///Vagus nerve///Thyroid gland///Sympathetic trunk///Geniohyoid muscle",
+            answer: "Thyroid gland",
+            select: "",
+            explain: "Pretracheal fascia แบ่งเป็น 2 ส่วนคือ muscular portion ที่หุ้ม infrahyoid muscles และ visceral portion ที่หุ้มอวัยวะภายในคอ ได้แก่ Thyroid gland, trachea, esophagus และ pharynx",
+            state: false
+        },
+        {
+            problem: "29. A 12-year-old boy presented to the hospital with a history of bilateral lower jaw pain. Five days before admission, his disease was diagnosed as influenza A infection. On examination, there was a swelling of the cervical lymph nodes under the lower jaw. He was diagnosed as submandibular gland infection. Which of the followings areas is the location of submandibular gland?",
+            img: "",
+            choices: "Muscular triangle///Digastric triangle///Occipital triangle///Submental triangle///Carotid triangle",
+            answer: "Digastric triangle",
+            select: "",
+            explain: "Submandibular gland และ Submandibular lymph nodes ตั้งอยู่ใน Submandibular triangle หรือที่เรียกว่า Digastric triangle ซึ่งเป็นส่วนหนึ่งของ anterior triangle of the neck",
+            state: false
+        },
+        {
+            problem: "30. Which of the following structures locates in the subclavian triangle?",
+            img: "",
+            choices: "Superior belly of omohyoid///Thyroid gland///Submandibular gland///Sternocleidomastoid muscle///Subclavian vein",
+            answer: "Subclavian vein",
+            select: "",
+            explain: "Subclavian triangle (หรือ supraclavicular triangle) เป็นส่วนหนึ่งของ posterior triangle of the neck มีโครงสร้างสำคัญที่ผ่านคือส่วนที่สามของ Subclavian artery, Subclavian vein, และ trunks ของ Brachial plexus",
+            state: false
+        },
+        {
+            problem: "1. When muscle contracts upon stimulation, which of the following is correct?",
+            img: "",
+            choices: "actin filaments pull myosin filament toward M line///length of sarcomere increase (lengthen)///Ca2+ reabsorb back to sarcoplasmic reticulum///Ca2+ bind to troponin C, active site open///No need ATP during muscle contraction",
+            answer: "Ca2+ bind to troponin C, active site open",
+            select: "",
+            explain: "ในกระบวนการ muscle contraction เมื่อมี action potential มากระตุ้น sarcoplasmic reticulum (SR) จะหลั่ง Calcium ion (Ca2+) ออกมา จากนั้น Ca2+ จะไปจับกับ troponin C ซึ่งเป็นส่วนหนึ่งของ troponin complex บน actin filament. [2, 5] การจับกันนี้ทำให้เกิดการเปลี่ยนแปลงรูปร่างของ tropomyosin ส่งผลให้ active site บน actin ที่เคยถูกปิดไว้ เปิดออกเพื่อให้ myosin head เข้ามาจับได้ เกิดเป็น cross-bridge และนำไปสู่การหดตัวของกล้ามเนื้อ. [5, 8] ส่วน choice อื่นๆ: a. myosin ดึง actin ไม่ใช่ actin ดึง myosin, b. sarcomere สั้นลง, c. Ca2+ reabsorption เป็นกระบวนการของ muscle relaxation, e. ATP จำเป็นมากในกระบวนการ contraction และ relaxation.",
+            state: false
+        },
+        {
+            problem: "2. Why cardiac muscle cannot be tetanized (frequency summation)?",
+            img: "",
+            choices: "motor units of cardiac muscle have low threshold///cardiac muscle has a long duration of action potential///cardiac muscle has pacemaker cells///cardiac muscle does not have actin and myosin///cardiac muscle has many T tubules per sarcomere",
+            answer: "cardiac muscle has a long duration of action potential",
+            select: "",
+            explain: "กล้ามเนื้อหัวใจ (cardiac muscle) ไม่สามารถเกิด tetanic contraction ได้เพราะมี action potential (AP) ที่ยาวนานมาก ทำให้มี long effective refractory period ซึ่งเป็นช่วงที่กล้ามเนื้อไม่ตอบสนองต่อการกระตุ้นใหม่ๆ. [4, 7, 9] refractory period ที่ยาวนานนี้กินเวลาเกือบเท่าช่วงเวลาการหดตัวของกล้ามเนื้อ ทำให้กล้ามเนื้อหัวใจมีเวลาคลายตัวก่อนที่จะถูกกระตุ้นให้หดตัวครั้งใหม่ได้ จึงไม่เกิดการหดตัวค้าง (tetanus) ซึ่งจำเป็นต่อการทำงานของหัวใจที่ต้องบีบและคลายตัวเป็นจังหวะเพื่อสูบฉีดเลือด. [7, 10]",
+            state: false
+        },
+        {
+            problem: "3. Maree would like to improve her physical fitness, so she goes for jogging about 1 hour each day. Which of the following is the main energy source for her muscle contraction?",
+            img: "",
+            choices: "Amino acid///Oxidative glycolysis///ATP in muscle fibers///Glycogen metabolism///Creatine phosphate",
+            answer: "Oxidative glycolysis",
+            select: "",
+            explain: "การวิ่งจ็อกกิ้งประมาณ 1 ชั่วโมงเป็นการออกกำลังกายแบบ aerobic ที่มีความหนักปานกลางและใช้เวลานาน ในช่วงแรกสุดร่างกายจะใช้ ATP ที่สะสมและ Creatine phosphate แต่จะหมดไปอย่างรวดเร็ว. [16] จากนั้นเมื่อออกกำลังกายนานขึ้น ร่างกายจะเปลี่ยนมาใช้ระบบ aerobic เป็นหลัก ซึ่งก็คือ Oxidative metabolism (หรือที่ใน choice อาจเรียกว่า Oxidative glycolysis) โดยจะใช้คาร์โบไฮเดรต (จาก glycogen) และไขมันเป็นเชื้อเพลิงหลักในการสร้าง ATP จำนวนมากอย่างมีประสิทธิภาพในสภาวะที่มีออกซิเจน. [18, 20] ดังนั้นนี่จึงเป็นแหล่งพลังงานหลักสำหรับการออกกำลังกายที่ยาวนานเช่นนี้. [17]",
+            state: false
+        },
+        {
+            problem: "4. Which statement accurately describes the length-tension relationship?",
+            img: "",
+            choices: "The active tension develops highest when the length of sarcomere at resting length (optimal length).///All of the above are correct.///The active tension develops highest when the length of sarcomere longest.///The passive tension develops highest when the length of sarcomere at resting length (optimal length).///Passive tension reaches its peak when the sarcomere is at its shortest length.",
+            answer: "The active tension develops highest when the length of sarcomere at resting length (optimal length).",
+            select: "",
+            explain: "Length-tension relationship อธิบายความสัมพันธ์ระหว่างความยาวเริ่มต้นของ sarcomere กับแรงตึง (tension) ที่กล้ามเนื้อสร้างได้. [14, 15] Active tension คือแรงที่เกิดจากการทำงานของ cross-bridge (การจับกันของ actin และ myosin) จะมีค่าสูงสุดเมื่อ sarcomere มีความยาวที่พอเหมาะ (optimal length) ซึ่งเป็นจุดที่มีการซ้อนทับกัน (overlap) ของ actin และ myosin มากที่สุด ทำให้เกิด cross-bridge ได้จำนวนมากที่สุด. [11, 12] ถ้า sarcomere ถูกยืดออกไปยาวเกินไป overlap จะน้อยลง active tension จะลดลง ส่วน Passive tension คือแรงที่เกิดจากความยืดหยุ่นของส่วนประกอบอื่นๆในกล้ามเนื้อ จะเพิ่มขึ้นเมื่อกล้ามเนื้อถูกยืดออกเกิน resting length.",
+            state: false
+        }
+    ],
+    "MSALLMCQ1": [
         // --- MS51MCQ1
         {
             "problem": "1) Which of the following is the anatomical position?",
@@ -1592,7 +1900,7 @@ var quizdata = {
             "state": false
         }
     ],
-    "ALLMCQ2": [
+    "MSALLMCQ2": [
         // --- MS51MCQ1
         {
             "problem": "7) What is the primary tissue in formed hard callus at the site of humerus fracture?",
