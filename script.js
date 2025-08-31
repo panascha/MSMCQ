@@ -6117,7 +6117,7 @@ var quizdata = {
             "problem": "32) โดนแทงที่ posterior axilla boarder nerve ไหนได้รับผลกระทบ?",
             "img": "",
             "choices": "Axillary nerve///Intercostal nerve///Thoracodorsal nerve///Musculocutaneous nerve///Median nerve",
-            "answer": "Axillary nerve",
+            "answer": "Thoracodorsal nerve",
             "select": "",
             "explain": "Posterior axillary border เป็นที่อยู่ของเส้นประสาทสำคัญคือ Axillary nerve และ Thoracodorsal nerve โดย Axillary nerve จะวิ่งผ่าน quadrangular space ซึ่งอยู่ในบริเวณนี้ ทำให้มีความเสี่ยงสูงต่อการบาดเจ็บจากการถูกแทง (stab wound) การบาดเจ็บของ Axillary nerve จะทำให้กล้ามเนื้อ Deltoid อ่อนแรง",
             "state": false
