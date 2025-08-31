@@ -392,7 +392,7 @@ var quizdata = {
         {
             "problem": "44. Coronal plane แบ่งร่างกายแบบไหน (How does the coronal plane divide the body?)",
             "img": "",
-            "choices": "Proximal-distal///Anterior-Posterior///Medial-lateral///Superior-inferior///Ventral-dorsal",
+            "choices": "Proximal-distal///Medial-lateral///Superior-inferior///Ventral-dorsal",
             "answer": "Ventral-dorsal",
             "select": "",
             "explain": "Coronal plane (หรือ frontal plane) คือระนาบที่แบ่งร่างกายในแนวตั้งออกเป็นส่วนหน้า (Anterior หรือ Ventral) และส่วนหลัง (Posterior หรือ Dorsal) ซึ่งเป็นคำตอบที่ถูกต้องที่สุดในตัวเลือกนี้",
@@ -562,24 +562,6 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "5. Femoral bone จับกับ hip bone ที่ส่วนใด (Which part of the hip bone does the femoral bone articulate with?)",
-            "img": "",
-            "choices": "Acetabulum///Glenohumeral joint///Obturator foramen///Ischial spine///Iliac crest",
-            "answer": "Acetabulum",
-            "select": "",
-            "explain": "Hip joint (ข้อสะโพก) เป็นข้อต่อชนิด Ball-and-socket ที่เกิดจากการเชื่อมต่อกันระหว่าง Head of femur (ส่วนหัวของกระดูกต้นขา) กับ Acetabulum ซึ่งเป็นเบ้ารูปถ้วยบน hip bone (กระดูกสะโพก)",
-            "state": false
-        },
-        {
-            "problem": "68. กระดูกในข้อใดสร้างแบบ endochondral ossification (Which of the following bones is formed by endochondral ossification?)",
-            "img": "",
-            "choices": "Frontal bone///Clavicle///Humerus///Vomer///Maxilla",
-            "answer": "Humerus",
-            "select": "",
-            "explain": "Endochondral ossification เป็นกระบวนการสร้างกระดูกโดยอาศัยกระดูกอ่อนเป็นต้นแบบ พบในกระดูกยาว (long bones) เช่น Humerus ส่วนกระดูกแบนของกะโหลกศีรษะ (Frontal bone, Vomer, Maxilla) และส่วนใหญ่ของ Clavicle จะถูกสร้างโดยกระบวนการ Intramembranous ossification",
-            "state": false
-        },
-        {
             "problem": "45. Which of the following is a hinge joint?",
             "img": "",
             "choices": "Interphalangeal joint///Radiocarpal joint///Metacarpophalangeal joint///Carpometacarpal joint of the thumb///Glenohumeral joint",
@@ -635,10 +617,10 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc? [ควรตอบ S1]",
+            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc?",
             "img": "",
-            "choices": "S2///S3///L3///L4///L5",
-            "answer": "L5",
+            "choices": "S2///S3///L3///L4///L5///S1",
+            "answer": "S1",
             "select": "",
             "explain": "อาการปวดและชา (pain and paresthesia) บริเวณด้านข้างของเท้า (lateral feet) มักเกี่ยวข้องกับ S1 nerve root อย่างไรก็ตามในตัวเลือกไม่มี S1 ให้เลือก L5 nerve root ซึ่งรับความรู้สึกบริเวณด้านข้างของขา (lateral leg) และหลังเท้า (dorsum of the foot) เป็นบริเวณที่ใกล้เคียงที่สุด จึงเป็นคำตอบที่เป็นไปได้มากที่สุดในตัวเลือกที่ให้มา การกดทับ L5 nerve root มักเกิดจากหมอนรองกระดูกเคลื่อนที่ระดับ L4-L5",
             "state": false
@@ -2096,10 +2078,10 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc? [ควรตอบ S1]",
+            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc?",
             "img": "",
-            "choices": "S2///S3///L3///L4///L5",
-            "answer": "L5",
+            "choices": "S2///S3///L3///L4///L5///S1",
+            "answer": "S1",
             "select": "",
             "explain": "อาการปวดและชา (pain and paresthesia) บริเวณด้านข้างของเท้า (lateral feet) มักเกี่ยวข้องกับ S1 nerve root อย่างไรก็ตามในตัวเลือกไม่มี S1 ให้เลือก L5 nerve root ซึ่งรับความรู้สึกบริเวณด้านข้างของขา (lateral leg) และหลังเท้า (dorsum of the foot) เป็นบริเวณที่ใกล้เคียงที่สุด จึงเป็นคำตอบที่เป็นไปได้มากที่สุดในตัวเลือกที่ให้มา การกดทับ L5 nerve root มักเกิดจากหมอนรองกระดูกเคลื่อนที่ระดับ L4-L5",
             "state": false
@@ -3127,15 +3109,6 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "5. Femoral bone จับกับ hip bone ที่ส่วนใด (Which part of the hip bone does the femoral bone articulate with?)",
-            "img": "",
-            "choices": "Acetabulum///Glenohumeral joint///Obturator foramen///Ischial spine///Iliac crest",
-            "answer": "Acetabulum",
-            "select": "",
-            "explain": "Hip joint (ข้อสะโพก) เป็นข้อต่อชนิด Ball-and-socket ที่เกิดจากการเชื่อมต่อกันระหว่าง Head of femur (ส่วนหัวของกระดูกต้นขา) กับ Acetabulum ซึ่งเป็นเบ้ารูปถ้วยบน hip bone (กระดูกสะโพก)",
-            "state": false
-        },
-        {
             "problem": "6. What type of joint of the head that permits rotation of the head, when saying “no”",
             "img": "",
             "choices": "Ball and sockets joint///Pivot joint///Hinge joint///Condyloid joint///Saddle joint",
@@ -3388,15 +3361,6 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "39. A patient has septic arthritis. A synovial fluid culture shows Gram-positive cocci in clusters. Which of the following is a key virulence factor of the likely pathogen?",
-            "img": "",
-            "choices": "Protein A///Endotoxin (LPS)///Mycolic acid///M protein///Pili",
-            "answer": "Protein A",
-            "select": "",
-            "explain": "เชื้อก่อโรคที่พบบ่อยที่สุดใน Septic arthritis คือ Staphylococcus aureus ซึ่งเป็นแบคทีเรีย Gram positive cocci ที่เรียงตัวเป็นพวงองุ่น (clusters) Virulence factor ที่สำคัญอย่างหนึ่งของ S. aureus คือ Protein A ซึ่งเป็นโปรตีนบนผิวเซลล์ที่สามารถจับกับ Fc portion ของ IgG antibody ทำให้ขัดขวางกระบวนการ opsonization และ phagocytosis",
-            "state": false
-        },
-        {
             "problem": "40. A person suffers a deep cut on the palmar side of their finger and now cannot flex the distal and proximal interphalangeal joints. What structures are damaged?",
             "img": "",
             "choices": "Flexor digitorum profundus (FDP) tendon only///Flexor digitorum superficialis (FDS) tendon only///Both FDP and FDS tendons///Lumbrical muscle///Digital nerve",
@@ -3435,7 +3399,7 @@ var quizdata = {
         {
             "problem": "44. Coronal plane แบ่งร่างกายแบบไหน (How does the coronal plane divide the body?)",
             "img": "",
-            "choices": "Proximal-distal///Anterior-Posterior///Medial-lateral///Superior-inferior///Ventral-dorsal",
+            "choices": "Proximal-distal///Medial-lateral///Superior-inferior///Ventral-dorsal",
             "answer": "Ventral-dorsal",
             "select": "",
             "explain": "Coronal plane (หรือ frontal plane) คือระนาบที่แบ่งร่างกายในแนวตั้งออกเป็นส่วนหน้า (Anterior หรือ Ventral) และส่วนหลัง (Posterior หรือ Dorsal) ซึ่งเป็นคำตอบที่ถูกต้องที่สุดในตัวเลือกนี้",
@@ -3547,15 +3511,6 @@ var quizdata = {
             "answer": "Supraspinous ligament",
             "select": "",
             "explain": "เอ็น (ligaments) ส่วนใหญ่ที่กล่าวมา (Tectorial membrane, Apical ligament, Transverse ligament, Alar ligament) ล้วนมีความเกี่ยวข้องโดยตรงกับการยึดระหว่าง C1, C2 และกะโหลกศีรษะ แต่ Supraspinous ligament ซึ่งวิ่งเชื่อมระหว่างปลายของ spinous processes จะเริ่มจาก C7 ลงไปถึง sacrum เหนือกว่า C7 จะกลายเป็น ligamentum nuchae ดังนั้นตัว Supraspinous ligament เองจึงไม่ได้รับผลกระทบโดยตรงจาก C2 fracture",
-            "state": false
-        },
-        {
-            "problem": "68. กระดูกในข้อใดสร้างแบบ endochondral ossification (Which of the following bones is formed by endochondral ossification?)",
-            "img": "",
-            "choices": "Frontal bone///Clavicle///Humerus///Vomer///Maxilla",
-            "answer": "Humerus",
-            "select": "",
-            "explain": "Endochondral ossification เป็นกระบวนการสร้างกระดูกโดยอาศัยกระดูกอ่อนเป็นต้นแบบ พบในกระดูกยาว (long bones) เช่น Humerus ส่วนกระดูกแบนของกะโหลกศีรษะ (Frontal bone, Vomer, Maxilla) และส่วนใหญ่ของ Clavicle จะถูกสร้างโดยกระบวนการ Intramembranous ossification",
             "state": false
         },
         // --- MS49MCQ2
@@ -5211,6 +5166,33 @@ var quizdata = {
         },
         // --- MS49MCQ2
         {
+            "problem": "68. กระดูกในข้อใดสร้างแบบ endochondral ossification (Which of the following bones is formed by endochondral ossification?)",
+            "img": "",
+            "choices": "Frontal bone///Clavicle///Humerus///Vomer///Maxilla",
+            "answer": "Humerus",
+            "select": "",
+            "explain": "Endochondral ossification เป็นกระบวนการสร้างกระดูกโดยอาศัยกระดูกอ่อนเป็นต้นแบบ พบในกระดูกยาว (long bones) เช่น Humerus ส่วนกระดูกแบนของกะโหลกศีรษะ (Frontal bone, Vomer, Maxilla) และส่วนใหญ่ของ Clavicle จะถูกสร้างโดยกระบวนการ Intramembranous ossification",
+            "state": false
+        },
+        {
+            "problem": "39. A patient has septic arthritis. A synovial fluid culture shows Gram-positive cocci in clusters. Which of the following is a key virulence factor of the likely pathogen?",
+            "img": "",
+            "choices": "Protein A///Endotoxin (LPS)///Mycolic acid///M protein///Pili",
+            "answer": "Protein A",
+            "select": "",
+            "explain": "เชื้อก่อโรคที่พบบ่อยที่สุดใน Septic arthritis คือ Staphylococcus aureus ซึ่งเป็นแบคทีเรีย Gram positive cocci ที่เรียงตัวเป็นพวงองุ่น (clusters) Virulence factor ที่สำคัญอย่างหนึ่งของ S. aureus คือ Protein A ซึ่งเป็นโปรตีนบนผิวเซลล์ที่สามารถจับกับ Fc portion ของ IgG antibody ทำให้ขัดขวางกระบวนการ opsonization และ phagocytosis",
+            "state": false
+        },
+        {
+            "problem": "5. Femoral bone จับกับ hip bone ที่ส่วนใด (Which part of the hip bone does the femoral bone articulate with?)",
+            "img": "",
+            "choices": "Acetabulum///Glenohumeral joint///Obturator foramen///Ischial spine///Iliac crest",
+            "answer": "Acetabulum",
+            "select": "",
+            "explain": "Hip joint (ข้อสะโพก) เป็นข้อต่อชนิด Ball-and-socket ที่เกิดจากการเชื่อมต่อกันระหว่าง Head of femur (ส่วนหัวของกระดูกต้นขา) กับ Acetabulum ซึ่งเป็นเบ้ารูปถ้วยบน hip bone (กระดูกสะโพก)",
+            "state": false
+        },
+        {
             "problem": "1. Supine position hip and knee extend adduction resistance provided by physician. Which muscle is working?",
             "img": "",
             "choices": "Adductor magnus///Gluteus medius///Sartorius///Rectus femoris///Pectineus",
@@ -5898,10 +5880,10 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc? [ควรตอบ S1]",
+            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc?",
             "img": "",
-            "choices": "S2///S3///L3///L4///L5",
-            "answer": "L5",
+            "choices": "S2///S3///L3///L4///L5///S1",
+            "answer": "S1",
             "select": "",
             "explain": "อาการปวดและชา (pain and paresthesia) บริเวณด้านข้างของเท้า (lateral feet) มักเกี่ยวข้องกับ S1 nerve root อย่างไรก็ตามในตัวเลือกไม่มี S1 ให้เลือก L5 nerve root ซึ่งรับความรู้สึกบริเวณด้านข้างของขา (lateral leg) และหลังเท้า (dorsum of the foot) เป็นบริเวณที่ใกล้เคียงที่สุด จึงเป็นคำตอบที่เป็นไปได้มากที่สุดในตัวเลือกที่ให้มา การกดทับ L5 nerve root มักเกิดจากหมอนรองกระดูกเคลื่อนที่ระดับ L4-L5",
             "state": false
