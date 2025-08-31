@@ -103,9 +103,9 @@ var quizdata = {
             problem: "12. The patient experienced an accident falling from a height, resulting in a tear of the root of C4-C5. Which of the following structures might be affected?",
             img: "",
             choices: "Deltoid///Subscapularis///Infraspinatus///Serratus anterior///Pectoralis minor",
-            answer: "Serratus anterior",
+            answer: "Infraspinatus",
             select: "",
-            explain: "แม้ว่า C4 จะไม่ได้เป็นส่วนหลักของ brachial plexus แต่ C5 root เป็นจุดกำเนิดของ Long thoracic nerve (ร่วมกับ C6 C7) ซึ่งไปเลี้ยงกล้ามเนื้อ Serratus anterior การบาดเจ็บที่ C5 root จึงอาจทำให้กล้ามเนื้อมัดนี้อ่อนแรงและเกิดอาการ winged scapula ได้",
+            explain: "Formative  เฉลยแบบนี้",
             state: false
         },
         {
@@ -355,7 +355,7 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc?",
+            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc? [ควรตอบ S1]",
             "img": "",
             "choices": "S2///S3///L3///L4///L5",
             "answer": "L5",
@@ -409,7 +409,7 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "14) A 55-year-old man presented with weakness and atrophy of the infraspinatus muscle. The physician made an incision on the transverse humeral ligament to relieve the pain and restore the partial function of the muscle. Which nerve was likely compressed?",
+            "problem": "14) A 55-year-old man presented with weakness and atrophy of the infraspinatus muscle. The physician made an incision on the transverse humeral ligament to relieve the pain and restore the partial function of the muscle. Which nerve was likely compressed? [น่าจะ incision Superior transverse scapular ligament]",
             "img": "",
             "choices": "Long thoracic nerve///Suprascapular nerve///Axillary nerve///Upper scapular nerve///Lower scapular nerve",
             "answer": "Suprascapular nerve",
@@ -522,7 +522,7 @@ var quizdata = {
             "choices": "Deltopectoral triangle///Supraclavicular area///Axilla area///Infraclavicular area///Interscalene area",
             "answer": "Interscalene area",
             "select": "",
-            "explain": "การฉีดยาชาเพื่อ block brachial plexus สำหรับการผ่าตัดหัวไหล่ วิธีที่นิยมและมีประสิทธิภาพคือ Interscalene block ซึ่งเป็นการฉีดยาชาที่บริเวณช่องว่างระหว่าง anterior และ middle scalene muscles ซึ่งเป็นตำแหน่งที่ nerve roots (โดยเฉพาะ C5, C6) ของ brachial plexus วิ่งผ่าน",
+            "explain": "การฉีดยาชาเพื่อ block brachial plexus สำหรับการผ่าตัดหัวไหล่ วิธีที่นิยมและมีประสิทธิภาพคือ Interscalene block ซึ่งเป็นการฉีดยาชาที่บริเวณช่องว่างระหว่าง anterior และ middle scalene muscles ซึ่งเป็นตำแหน่งที่ nerve roots (โดยเฉพาะ C5, C6) ของ brachial plexus วิ่งผ่าน. ส่วนการ block ในตำแหน่ง supraclavicular area จะทำให้เกิดการ block ที่ nerve trunks แทน, ในขณะที่ infraclavicular area จะทำให้เกิดการ block ที่ cords ของ brachial plexus, Axillary area จะทำให้เกิดการ block ที่ terminal branches ของ brachial plexus",
             "state": false
         },
         {
@@ -832,6 +832,15 @@ var quizdata = {
             "explain": "เส้นประสาท Facial (CN VII) นอกจากจะไปเลี้ยงกล้ามเนื้อแสดงสีหน้าแล้ว ยังให้แขนงไปเลี้ยงกล้ามเนื้อ Stylohyoid และ Posterior belly of the digastric muscle ด้วย ส่วน Anterior belly of the digastric ถูกเลี้ยงโดย nerve to mylohyoid (จาก V3) และ Sternocleidomastoid ถูกเลี้ยงโดย accessory nerve (CN XI)",
             "state": false
         },
+        {
+            "problem": "X18. The towel stretch exercise, where a patient uses their good arm to pull a towel up their back to move the affected arm, is primarily used to improve which motion in a patient with a frozen shoulder?",
+            "img": "",
+            "choices": "External rotation///Internal rotation///Forward flexion///Abduction///Extension",
+            "answer": "Internal rotation",
+            "select": "",
+            "explain": "ภาวะข้อไหล่ติด (Frozen shoulder หรือ Adhesive capsulitis) มักทำให้การเคลื่อนไหวในท่าหมุนแขนเข้าด้านใน (Internal rotation) ทำได้จำกัดมากที่สุด ท่า towel stretch ที่ดึงแขนขึ้นไปด้านหลัง เป็นการช่วยยืดและเพิ่มองศาการเคลื่อนไหวในทิศทาง Internal rotation โดยตรง",
+            "state": false
+        },
         // --- MS50MCQ1
         {
             "problem": "1. Which of the following action is the anatomical term of the movement of the hip in the coronal plane away from the body?",
@@ -879,12 +888,21 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "7. Baseball player was hit by the baseball and came to the hospital with an epidural hematoma. Which bone is intact?",
+            "problem": "7. Baseball player was hit by the baseball and came to the hospital with an epidural hematoma. Which bone is most likely injured?",
             "img": "",
             "choices": "Zygomatic bone///Sphenoid bone///Temporal bone///Frontal bone///Parietal bone",
-            "answer": "Zygomatic bone",
+            "answer": "Parietal bone",
             "select": "",
-            "explain": "Zygomatic bone (กระดูกโหนกแก้ม) เป็นกระดูกที่อยู่บริเวณโหนกแก้ม ซึ่งมักจะไม่ถูกกระทบกระเทือนจากการบาดเจ็บที่ศีรษะในกรณีของ epidural hematoma. Pterion เป็นจุดที่กระดูก Frontal, Parietal, Temporal, และ Sphenoid มาบรรจบกัน และเป็นจุดที่บางที่สุดของกะโหลกศีรษะ",
+            "explain": "Epidural hematoma มักเกิดจากการบาดเจ็บที่ศีรษะจนทำให้ Skull fracture ไปตัดเส้นเลือด Middle meningeal artery (MMA) ตำแหน่งที่พบบ่อยคือบริเวณ Pterion ซึ่งเป็นจุดที่กระดูก Frontal, Parietal, Temporal, และ Sphenoid มาบรรจบกัน และเป็นจุดที่บางที่สุดของกะโหลกศีรษะ เส้นเลือด MMA ทอดผ่านด้านในของกระดูก Temporal และ Parietal ทำให้กระดูกสองชิ้นนี้เสี่ยงต่อการแตกหักและทำให้เกิดภาวะนี้ได้มากที่สุด ใน choice นี้ Parietal bone จึงเป็นคำตอบที่เป็นไปได้สูง (เช่นเดียวกับ Temporal bone)",
+            "state": false
+        },
+        {
+            "problem": "8. Which of the following is the characteristic of thigh bone ?",
+            "img": "",
+            "choices": "Greater tubercle///Interosseous border///Lateral malleolus///Linea aspera///Acetabulum",
+            "answer": "Linea aspera",
+            "select": "",
+            "explain": "Thigh bone คือกระดูก Femur ซึ่งมีลักษณะเด่นคือ Linea aspera เป็นสันนูนในแนวยาวอยู่ทางด้านหลัง (posterior aspect) ของกระดูก ส่วน Greater tubercle อยู่ที่ Humerus, Lateral malleolus อยู่ที่ Fibula, และ Acetabulum เป็นเบ้าของกระดูกสะโพก (Hip bone)",
             "state": false
         },
         {
@@ -1107,9 +1125,9 @@ var quizdata = {
             "problem": "53. The medial line of the palm of the wrist of a 10 year old boy was cut in the medial of the wrist. Which of the muscle below is injured ?",
             "img": "",
             "choices": "Flexor pollicis brevis///Abductor pollicis brevis///Palmaris longus///Adductor pollicis///Flexor digiti minimi",
-            "answer": "Flexor digiti minimi",
+            "answer": "Palmaris longus",
             "select": "",
-            "explain": "บริเวณด้าน medial ของข้อมือและฝ่ามือเป็นที่อยู่ของกลุ่มกล้ามเนื้อ Hypothenar ซึ่งทำหน้าที่เคลื่อนไหวนิ้วก้อย กล้ามเนื้อ Flexor digiti minimi เป็นหนึ่งในกลุ่มนี้ การบาดเจ็บที่ medial wrist อาจทำให้เอ็นของกล้ามเนื้อมัดนี้หรือตัวกล้ามเนื้อเองบาดเจ็บได้",
+            "explain": "",
             "state": false
         },
         {
@@ -1335,9 +1353,9 @@ var quizdata = {
             "problem": "1. Which of the following are the movement of a thumb in sagittal plane moving away from the palm",
             "img": "",
             "choices": "Abduction///Extension///Flexion///Circumduction///Adduction",
-            "answer": "Extension",
+            "answer": "Abduction",
             "select": "",
-            "explain": "การเคลื่อนไหวของนิ้วโป้ง (thumb) จะแตกต่างจากนิ้วอื่น ๆ การเคลื่อนที่ใน sagittal plane (ระนาบที่ขนานกับฝ่ามือ) เมื่อเคลื่อนออกจากฝ่ามือเรียกว่า Extension ส่วนการเคลื่อนที่เข้าหาฝ่ามือเรียกว่า Flexion ในขณะที่การเคลื่อนที่ใน coronal plane (ระนาบที่ตั้งฉากกับฝ่ามือ) เมื่อเคลื่อนออกจากฝ่ามือไปทางด้านหน้าเรียกว่า Abduction (palmar abduction)",
+            "explain": "การเคลื่อนไหวของนิ้วโป้ง (thumb) จะแตกต่างจากนิ้วอื่น ๆ การเคลื่อนที่ใน sagittal plane (ระนาบที่ขนานกับฝ่ามือ) เมื่อเคลื่อนออกจากฝ่ามือเรียกว่า Abduction ส่วนการเคลื่อนที่เข้าหาฝ่ามือเรียกว่า Adduction ในขณะที่การเคลื่อนที่ใน coronal plane (ระนาบที่ตั้งฉากกับฝ่ามือ) เมื่อเคลื่อนออกจากฝ่ามือไปทางด้านหน้าเรียกว่า Palmar abduction",
             "state": false
         },
         {
@@ -1365,6 +1383,15 @@ var quizdata = {
             "answer": "Cornu of sacral hiatus",
             "select": "",
             "explain": "Caudal epidural block เป็นการให้ยาชาเข้าสู่ epidural space ผ่านทาง sacral hiatus เพื่อระงับความเจ็บปวดบริเวณ perineum ซึ่งใช้บ่อยในการคลอดบุตร Landmark ที่สำคัญที่ใช้คลำเพื่อหาตำแหน่งของ sacral hiatus คือ sacral cornua ซึ่งเป็นปุ่มกระดูกสองข้างที่ขนาบข้าง hiatus",
+            "state": false
+        },
+        {
+            "problem": "5. Femoral bone จับกับ hip bone ที่ส่วนใด (Which part of the hip bone does the femoral bone articulate with?)",
+            "img": "",
+            "choices": "Acetabulum///Glenohumeral joint///Obturator foramen///Ischial spine///Iliac crest",
+            "answer": "Acetabulum",
+            "select": "",
+            "explain": "Hip joint (ข้อสะโพก) เป็นข้อต่อชนิด Ball-and-socket ที่เกิดจากการเชื่อมต่อกันระหว่าง Head of femur (ส่วนหัวของกระดูกต้นขา) กับ Acetabulum ซึ่งเป็นเบ้ารูปถ้วยบน hip bone (กระดูกสะโพก)",
             "state": false
         },
         {
@@ -1620,6 +1647,15 @@ var quizdata = {
             "state": false
         },
         {
+            "problem": "39. A patient has septic arthritis. A synovial fluid culture shows Gram-positive cocci in clusters. Which of the following is a key virulence factor of the likely pathogen?",
+            "img": "",
+            "choices": "Protein A///Endotoxin (LPS)///Mycolic acid///M protein///Pili",
+            "answer": "Protein A",
+            "select": "",
+            "explain": "เชื้อก่อโรคที่พบบ่อยที่สุดใน Septic arthritis คือ Staphylococcus aureus ซึ่งเป็นแบคทีเรีย Gram positive cocci ที่เรียงตัวเป็นพวงองุ่น (clusters) Virulence factor ที่สำคัญอย่างหนึ่งของ S. aureus คือ Protein A ซึ่งเป็นโปรตีนบนผิวเซลล์ที่สามารถจับกับ Fc portion ของ IgG antibody ทำให้ขัดขวางกระบวนการ opsonization และ phagocytosis",
+            "state": false
+        },
+        {
             "problem": "40. A person suffers a deep cut on the palmar side of their finger and now cannot flex the distal and proximal interphalangeal joints. What structures are damaged?",
             "img": "",
             "choices": "Flexor digitorum profundus (FDP) tendon only///Flexor digitorum superficialis (FDS) tendon only///Both FDP and FDS tendons///Lumbrical muscle///Digital nerve",
@@ -1658,8 +1694,8 @@ var quizdata = {
         {
             "problem": "44. Coronal plane แบ่งร่างกายแบบไหน (How does the coronal plane divide the body?)",
             "img": "",
-            "choices": "Proximal-distal///Anterior-Posterior///Medial-lateral///Superior-inferior",
-            "answer": "Anterior-Posterior",
+            "choices": "Proximal-distal///Anterior-Posterior///Medial-lateral///Superior-inferior///Ventral-dorsal",
+            "answer": "Ventral-dorsal",
             "select": "",
             "explain": "Coronal plane (หรือ frontal plane) คือระนาบที่แบ่งร่างกายในแนวตั้งออกเป็นส่วนหน้า (Anterior หรือ Ventral) และส่วนหลัง (Posterior หรือ Dorsal) ซึ่งเป็นคำตอบที่ถูกต้องที่สุดในตัวเลือกนี้",
             "state": false
@@ -1770,6 +1806,15 @@ var quizdata = {
             "answer": "Supraspinous ligament",
             "select": "",
             "explain": "เอ็น (ligaments) ส่วนใหญ่ที่กล่าวมา (Tectorial membrane, Apical ligament, Transverse ligament, Alar ligament) ล้วนมีความเกี่ยวข้องโดยตรงกับการยึดระหว่าง C1, C2 และกะโหลกศีรษะ แต่ Supraspinous ligament ซึ่งวิ่งเชื่อมระหว่างปลายของ spinous processes จะเริ่มจาก C7 ลงไปถึง sacrum เหนือกว่า C7 จะกลายเป็น ligamentum nuchae ดังนั้นตัว Supraspinous ligament เองจึงไม่ได้รับผลกระทบโดยตรงจาก C2 fracture",
+            "state": false
+        },
+        {
+            "problem": "68. กระดูกในข้อใดสร้างแบบ endochondral ossification (Which of the following bones is formed by endochondral ossification?)",
+            "img": "",
+            "choices": "Frontal bone///Clavicle///Humerus///Vomer///Maxilla",
+            "answer": "Humerus",
+            "select": "",
+            "explain": "Endochondral ossification เป็นกระบวนการสร้างกระดูกโดยอาศัยกระดูกอ่อนเป็นต้นแบบ พบในกระดูกยาว (long bones) เช่น Humerus ส่วนกระดูกแบนของกะโหลกศีรษะ (Frontal bone, Vomer, Maxilla) และส่วนใหญ่ของ Clavicle จะถูกสร้างโดยกระบวนการ Intramembranous ossification",
             "state": false
         },
         // --- MS49MCQ2
@@ -2056,15 +2101,7 @@ var quizdata = {
             "state": false
         },
         // --- MS51MCQ2
-        {
-            "problem": "X18. The towel stretch exercise, where a patient uses their good arm to pull a towel up their back to move the affected arm, is primarily used to improve which motion in a patient with a frozen shoulder?",
-            "img": "",
-            "choices": "External rotation///Internal rotation///Forward flexion///Abduction///Extension",
-            "answer": "Internal rotation",
-            "select": "",
-            "explain": "ภาวะข้อไหล่ติด (Frozen shoulder หรือ Adhesive capsulitis) มักทำให้การเคลื่อนไหวในท่าหมุนแขนเข้าด้านใน (Internal rotation) ทำได้จำกัดมากที่สุด ท่า towel stretch ที่ดึงแขนขึ้นไปด้านหลัง เป็นการช่วยยืดและเพิ่มองศาการเคลื่อนไหวในทิศทาง Internal rotation โดยตรง",
-            "state": false
-        },
+
         {
             "problem": "1. ผู้หญิงมีปัญหาในการลุกจากเก้าอี้ กล้ามเนื้ออะไรน่าจะมีความผิดปกติ",
             "img": "",
@@ -2724,15 +2761,7 @@ var quizdata = {
             "state": false
         },
         // --- MS50MCQ1
-        {
-            "problem": "8. Which of the following is the characteristic of thigh bone ?",
-            "img": "",
-            "choices": "Greater tubercle///Interosseous border///Lateral malleolus///Linea aspera///Acetabulum",
-            "answer": "Linea aspera",
-            "select": "",
-            "explain": "Thigh bone คือกระดูก Femur ซึ่งมีลักษณะเด่นคือ Linea aspera เป็นสันนูนในแนวยาวอยู่ทางด้านหลัง (posterior aspect) ของกระดูก ส่วน Greater tubercle อยู่ที่ Humerus, Lateral malleolus อยู่ที่ Fibula, และ Acetabulum เป็นเบ้าของกระดูกสะโพก (Hip bone)",
-            "state": false
-        },
+
         {
             "problem": "16. Which of the following statements characterize osteoclasts ?",
             "img": "",
@@ -3295,33 +3324,6 @@ var quizdata = {
         },
 
         // MS49MCQ1
-        {
-            "problem": "5. Femoral bone จับกับ hip bone ที่ส่วนใด (Which part of the hip bone does the femoral bone articulate with?)",
-            "img": "",
-            "choices": "Acetabulum///Glenohumeral joint///Obturator foramen///Ischial spine///Iliac crest",
-            "answer": "Acetabulum",
-            "select": "",
-            "explain": "Hip joint (ข้อสะโพก) เป็นข้อต่อชนิด Ball-and-socket ที่เกิดจากการเชื่อมต่อกันระหว่าง Head of femur (ส่วนหัวของกระดูกต้นขา) กับ Acetabulum ซึ่งเป็นเบ้ารูปถ้วยบน hip bone (กระดูกสะโพก)",
-            "state": false
-        },
-        {
-            "problem": "39. A patient has septic arthritis. A synovial fluid culture shows Gram-positive cocci in clusters. Which of the following is a key virulence factor of the likely pathogen?",
-            "img": "",
-            "choices": "Protein A///Endotoxin (LPS)///Mycolic acid///M protein///Pili",
-            "answer": "Protein A",
-            "select": "",
-            "explain": "เชื้อก่อโรคที่พบบ่อยที่สุดใน Septic arthritis คือ Staphylococcus aureus ซึ่งเป็นแบคทีเรีย Gram positive cocci ที่เรียงตัวเป็นพวงองุ่น (clusters) Virulence factor ที่สำคัญอย่างหนึ่งของ S. aureus คือ Protein A ซึ่งเป็นโปรตีนบนผิวเซลล์ที่สามารถจับกับ Fc portion ของ IgG antibody ทำให้ขัดขวางกระบวนการ opsonization และ phagocytosis",
-            "state": false
-        },
-        {
-            "problem": "68. กระดูกในข้อใดสร้างแบบ endochondral ossification (Which of the following bones is formed by endochondral ossification?)",
-            "img": "",
-            "choices": "Frontal bone///Clavicle///Humerus///Vomer///Maxilla",
-            "answer": "Humerus",
-            "select": "",
-            "explain": "Endochondral ossification เป็นกระบวนการสร้างกระดูกโดยอาศัยกระดูกอ่อนเป็นต้นแบบ พบในกระดูกยาว (long bones) เช่น Humerus ส่วนกระดูกแบนของกะโหลกศีรษะ (Frontal bone, Vomer, Maxilla) และส่วนใหญ่ของ Clavicle จะถูกสร้างโดยกระบวนการ Intramembranous ossification",
-            "state": false
-        },
         {
             "problem": "10. Which tissue is not covered by periosteum?",
             "img": "",
@@ -4155,7 +4157,7 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc?",
+            "problem": "6) A 35-year-old woman comes with pain and paresthesia along lateral feet, which spinal nerve is compressed by an intervertebral disc? [ควรตอบ S1]",
             "img": "",
             "choices": "S2///S3///L3///L4///L5",
             "answer": "L5",
@@ -4227,7 +4229,7 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "14) A 55-year-old man presented with weakness and atrophy of the infraspinatus muscle. The physician made an incision on the transverse humeral ligament to relieve the pain and restore the partial function of the muscle. Which nerve was likely compressed?",
+            "problem": "14) A 55-year-old man presented with weakness and atrophy of the infraspinatus muscle. The physician made an incision on the transverse humeral ligament to relieve the pain and restore the partial function of the muscle. Which nerve was likely compressed? [น่าจะ incision Superior transverse scapular ligament]",
             "img": "",
             "choices": "Long thoracic nerve///Suprascapular nerve///Axillary nerve///Upper scapular nerve///Lower scapular nerve",
             "answer": "Suprascapular nerve",
@@ -4412,7 +4414,7 @@ var quizdata = {
             "choices": "Deltopectoral triangle///Supraclavicular area///Axilla area///Infraclavicular area///Interscalene area",
             "answer": "Interscalene area",
             "select": "",
-            "explain": "การฉีดยาชาเพื่อ block brachial plexus สำหรับการผ่าตัดหัวไหล่ วิธีที่นิยมและมีประสิทธิภาพคือ Interscalene block ซึ่งเป็นการฉีดยาชาที่บริเวณช่องว่างระหว่าง anterior และ middle scalene muscles ซึ่งเป็นตำแหน่งที่ nerve roots (โดยเฉพาะ C5, C6) ของ brachial plexus วิ่งผ่าน",
+            "explain": "การฉีดยาชาเพื่อ block brachial plexus สำหรับการผ่าตัดหัวไหล่ วิธีที่นิยมและมีประสิทธิภาพคือ Interscalene block ซึ่งเป็นการฉีดยาชาที่บริเวณช่องว่างระหว่าง anterior และ middle scalene muscles ซึ่งเป็นตำแหน่งที่ nerve roots (โดยเฉพาะ C5, C6) ของ brachial plexus วิ่งผ่าน. ส่วนการ block ในตำแหน่ง supraclavicular area จะทำให้เกิดการ block ที่ nerve trunks แทน, ในขณะที่ infraclavicular area จะทำให้เกิดการ block ที่ cords ของ brachial plexus, Axillary area จะทำให้เกิดการ block ที่ terminal branches ของ brachial plexus",
             "state": false
         },
         {
@@ -4751,12 +4753,12 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "7. Baseball player was hit by the baseball and came to the hospital with an epidural hematoma. Which bone is intact?",
+            "problem": "7. Baseball player was hit by the baseball and came to the hospital with an epidural hematoma. Which bone is most likely injured?",
             "img": "",
             "choices": "Zygomatic bone///Sphenoid bone///Temporal bone///Frontal bone///Parietal bone",
-            "answer": "Zygomatic bone",
+            "answer": "Parietal bone",
             "select": "",
-            "explain": "Zygomatic bone (กระดูกโหนกแก้ม) เป็นกระดูกที่อยู่บริเวณโหนกแก้ม ซึ่งมักจะไม่ถูกกระทบกระเทือนจากการบาดเจ็บที่ศีรษะในกรณีของ epidural hematoma. Pterion เป็นจุดที่กระดูก Frontal, Parietal, Temporal, และ Sphenoid มาบรรจบกัน และเป็นจุดที่บางที่สุดของกะโหลกศีรษะ",
+            "explain": "Epidural hematoma มักเกิดจากการบาดเจ็บที่ศีรษะจนทำให้ Skull fracture ไปตัดเส้นเลือด Middle meningeal artery (MMA) ตำแหน่งที่พบบ่อยคือบริเวณ Pterion ซึ่งเป็นจุดที่กระดูก Frontal, Parietal, Temporal, และ Sphenoid มาบรรจบกัน และเป็นจุดที่บางที่สุดของกะโหลกศีรษะ เส้นเลือด MMA ทอดผ่านด้านในของกระดูก Temporal และ Parietal ทำให้กระดูกสองชิ้นนี้เสี่ยงต่อการแตกหักและทำให้เกิดภาวะนี้ได้มากที่สุด ใน choice นี้ Parietal bone จึงเป็นคำตอบที่เป็นไปได้สูง (เช่นเดียวกับ Temporal bone)",
             "state": false
         },
         {
@@ -5033,9 +5035,9 @@ var quizdata = {
             "problem": "53. The medial line of the palm of the wrist of a 10 year old boy was cut in the medial of the wrist. Which of the muscle below is injured ?",
             "img": "",
             "choices": "Flexor pollicis brevis///Abductor pollicis brevis///Palmaris longus///Adductor pollicis///Flexor digiti minimi",
-            "answer": "Flexor digiti minimi",
+            "answer": "Palmaris longus",
             "select": "",
-            "explain": "บริเวณด้าน medial ของข้อมือและฝ่ามือเป็นที่อยู่ของกลุ่มกล้ามเนื้อ Hypothenar ซึ่งทำหน้าที่เคลื่อนไหวนิ้วก้อย กล้ามเนื้อ Flexor digiti minimi เป็นหนึ่งในกลุ่มนี้ การบาดเจ็บที่ medial wrist อาจทำให้เอ็นของกล้ามเนื้อมัดนี้หรือตัวกล้ามเนื้อเองบาดเจ็บได้",
+            "explain": "",
             "state": false
         },
         {
@@ -5734,7 +5736,7 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "44. Coronal plane แบ่งร่างกายแบบไหน (How does the coronal plane divide the body?)",
+            "problem": "44. How does the coronal plane divide the body?",
             "img": "",
             "choices": "Proximal-distal///Anterior-Posterior///Medial-lateral///Superior-inferior",
             "answer": "Anterior-Posterior",
@@ -7900,5 +7902,4 @@ var quizdata = {
             "state": false
         }
     ]
-
 };
