@@ -556,15 +556,17 @@
             <div><input type="checkbox" id="msmcq2_anatomy" name="msmcq2_anatomy" value="msmcq2_anatomy"><label
                     for="msmcq2_anatomy">MCQ2_Anatomy</label></div>
             <div><input type="checkbox" id="msmcq2_embryo" name="msmcq2_embryo" value="msmcq2_embryo"><label
-                    for="msmcq2_embryo">MCQ2_Embryo</label></div>
+                    for="msmcq2_embryo">MCQ2_Embryo+Generated QUIZ</label></div>
             <div><input type="checkbox" id="msmcq2_microanatomy" name="msmcq2_microanatomy" value="msmcq2_microanatomy"><label
-                    for="msmcq2_microanatomy">MCQ2_Microanatomy</label></div>
+                    for="msmcq2_microanatomy">MCQ2_Microanatomy+Generated QUIZ</label></div>
             <div><input type="checkbox" id="msmcq23_pathology" name="msmcq23_pathology" value="msmcq23_pathology"><label
                     for="msmcq23_pathology">MCQ2,3_Pathology</label></div>
             <div><input type="checkbox" id="msmcq3_pharmacology" name="msmcq3_pharmacology" value="msmcq3_pharmacology"><label
                     for="msmcq3_pharmacology">MCQ3_Pharmacology</label></div>
             <div><input type="checkbox" id="msmcq3_exercise" name="msmcq3_exercise" value="msmcq3_exercise"><label
                     for="msmcq3_exercise">MCQ3_Exercise</label></div>
+            <div><input type="checkbox" id="msmcq3_biomechanic" name="msmcq3_biomechanic" value="msmcq3_biomechanic"><label
+                    for="msmcq3_biomechanic">MCQ3_Biomechanic Generated QUIZ</label></div>
             <div><input type="checkbox" id="msmcq2" name="msmcq2" value="msmcq2"><label for="msmcq2">MCQ2</label></div>
             <div><input type="checkbox" id="ms51mcq1" name="ms51mcq1" value="ms51mcq1"><label for="ms51mcq1">MCQ51_1</label></div>
             <div><input type="checkbox" id="ms50mcq1" name="ms50mcq1" value="ms50mcq1"><label for="ms50mcq1">MCQ50_1</label></div>
@@ -4606,7 +4608,7 @@
                         "state": false
                     }
                 ],
-                MCQ2_AnatomyLowerLimb: [
+                "MCQ2_AnatomyLowerLimb": [
                     {
                         "problem": "78. Right positive trendelenburg gait",
                         "img": "",
@@ -4932,15 +4934,6 @@
                         "state": false
                     },
                     {
-                        "problem": "29. A 24 year-old is evaluated for airway obstruction. Upon palpation, the Cricoid cartilage is at which vertebrae level?",
-                        "img": "",
-                        "choices": "C2///C3///C4///C7///C6",
-                        "answer": "C6",
-                        "select": "",
-                        "explain": "Cricoid cartilage เป็นกระดูกอ่อนรูปวงแหวนที่อยู่ใต้ thyroid cartilage และเป็น landmark ที่สำคัญทางกายวิภาค. ระดับของ cricoid cartilage จะตรงกับระดับของกระดูกสันหลังส่วนคอชิ้นที่ 6 (C6 vertebra). การทราบ landmark นี้มีประโยชน์ในการทำหัตถการเกี่ยวกับทางเดินหายใจ เช่น cricothyrotomy",
-                        "state": false
-                    },
-                    {
                         "problem": "31. Weakness of which muscle results in foot drop?",
                         "img": "",
                         "choices": "Tibialis anterior///Tibialis posterior///Flexor hallucis longus///Flexor digitorum longus///Gastrocnemius",
@@ -4991,15 +4984,7 @@
                         "explain": "Subsartorial canal หรือ Adductor canal เป็นช่องทางที่สำคัญที่ต้นขา มีโครงสร้างผ่านได้แก่ Femoral artery, Femoral vein, Saphenous nerve, และ Nerve to vastus medialis ส่วน Nerve to vastus intermedius แยกแขนงออกจาก Femoral nerve ในระดับที่สูงกว่าและไม่ได้เดินทางเข้ามาใน canal นี้",
                         "state": false
                     },
-                    {
-                        "problem": "X3. An inferior alveolar nerve block involves injecting anesthetic near the mandibular foramen. Which nerve is the primary target of this injection?",
-                        "img": "",
-                        "choices": "Inferior alveolar nerve///Lingual nerve///Buccal nerve///Mental nerve///Mylohyoid nerve",
-                        "answer": "Inferior alveolar nerve",
-                        "select": "",
-                        "explain": "การฉีดยาชาเพื่อระงับความรู้สึกของฟันกรามล่าง (Inferior alveolar nerve block) มีเป้าหมายที่ Inferior alveolar nerve ซึ่งเป็นแขนงของ Mandibular nerve (V3) ก่อนที่เส้นประสาทนี้จะเข้าไปในรู Mandibular foramen เพื่อไปเลี้ยงฟัน, เหงือก, ริมฝีปากล่าง และคาง",
-                        "state": false
-                    },
+
                     {
                         "problem": "X4. A patient who underwent hip replacement is found post-operatively to have a stretched obturator nerve. Which of the following muscles is most likely to be weakened?",
                         "img": "",
@@ -5161,7 +5146,7 @@
                         "explain": "อาการชา (loss of sensation) ที่บริเวณ anterolateral thigh โดยไม่มีอาการอ่อนแรงของกล้ามเนื้อ เป็นอาการเฉพาะของภาวะ Meralgia Paresthetica ซึ่งเกิดจากการกดทับของ Lateral femoral cutaneous nerve เส้นประสาทนี้เป็น sensory nerve ล้วนๆ ที่มาจาก L2, L3 ventral rami และเลี้ยงผิวหนังบริเวณดังกล่าว",
                         "state": false
                     }],
-                MCQ2_EmbryoMS: [{
+                "MCQ2_EmbryoMS": [{
                     "problem": "25. Lecture Embryology: Apoptosis of development of limb were blocked -> features not developed",
                     "img": "",
                     "choices": "Proximal-distal limb elongation///Bone & muscle formation///Vascular development///Separation of digits///Joint formation",
@@ -5195,8 +5180,279 @@
                     "select": "",
                     "explain": "ผนังหน้าท้อง (anterior abdominal wall) เกิดจากการเจริญและพับเข้ามาของ Somatic (parietal) layer of lateral plate mesoderm ร่วมกับ Ectoderm หากกระบวนการนี้ผิดพลาดไปจะทำให้เกิดความผิดปกติของผนังหน้าท้อง เช่น Gastroschisis หรือ Omphalocele",
                     "state": false
-                }],
-                MCQ2_MicroanatomyMS: [
+                    },
+                    {
+                        "problem": "1. Which germ layer derivative is primarily responsible for the formation of the axial skeleton, such as the vertebrae and ribs?",
+                        "img": "",
+                        "choices": "Somatic layer of lateral plate mesoderm///Neural crest///Sclerotome of paraxial mesoderm///Intermediate mesoderm///Ectoderm",
+                        "answer": "Sclerotome of paraxial mesoderm",
+                        "select": "",
+                        "explain": "Paraxial mesoderm จะเจริญไปเป็น Somites ซึ่งจะแบ่งออกเป็น Sclerotome, Myotome และ Dermatome โดย Sclerotome จะทำหน้าที่สร้างกระดูกอ่อนและกระดูกของแกนลำตัว (axial skeleton) ซึ่งรวมถึงกระดูกสันหลัง (vertebrae) และกระดูกซี่โครง (ribs)",
+                        "state": false
+                    },
+                    {
+                        "problem": "2. Failure of the vertebral arches to fuse properly during development results in which condition?",
+                        "img": "",
+                        "choices": "Craniosynostosis///Achondroplasia///Spina bifida///Scoliosis///Poland sequence",
+                        "answer": "Spina bifida",
+                        "select": "",
+                        "explain": "Spina bifida เป็นความบกพร่องของท่อประสาท (neural tube defect) ที่เกิดจากการที่ส่วนโค้งของกระดูกสันหลัง (vertebral arches) ซึ่งเจริญมาจาก Sclerotome ไม่สามารถเชื่อมปิดกันได้อย่างสมบูรณ์ ทำให้เกิดความผิดปกติได้หลายระดับ ตั้งแต่ Spina bifida occulta ที่ไม่รุนแรง ไปจนถึง Meningomyelocele ที่รุนแรงมาก",
+                        "state": false
+                    },
+                    {
+                        "problem": "3. The bones of the limbs (appendicular skeleton) develop from which embryonic structure?",
+                        "img": "",
+                        "choices": "Neural crest cells///Paraxial mesoderm///Somatic layer of lateral plate mesoderm///Splanchnic layer of lateral plate mesoderm///Notochord",
+                        "answer": "Somatic layer of lateral plate mesoderm",
+                        "select": "",
+                        "explain": "แกนกลางของระยางค์ (limb buds) ซึ่งจะเจริญไปเป็นกระดูกและเนื้อเยื่อเกี่ยวพันของแขนขา มีต้นกำเนิดมาจาก Somatic (parietal) layer of lateral plate mesoderm",
+                        "state": false
+                    },
+                    {
+                        "problem": "4. A baby is born with fused fingers (syndactyly). This condition is caused by a failure of which developmental process?",
+                        "img": "",
+                        "choices": "Endochondral ossification///Neural crest migration///Apical Ectodermal Ridge (AER) induction///Apoptosis in the interdigital webs///Myotome differentiation",
+                        "answer": "Apoptosis in the interdigital webs",
+                        "select": "",
+                        "explain": "Syndactyly หรือภาวะนิ้วติดกัน เป็นผลมาจากความล้มเหลวของกระบวนการตายของเซลล์ตามโปรแกรม (apoptosis) ในเนื้อเยื่อ Mesenchyme ที่อยู่ระหว่างแนวของนิ้วที่กำลังเจริญ (digital rays) ซึ่งโดยปกติแล้วกระบวนการนี้จะทำให้เนื้อเยื่อสลายไปและทำให้นิ้วมือและนิ้วเท้าแยกออกจากกัน",
+                        "state": false
+                    },
+                    {
+                        "problem": "5. The flat bones of the skull, such as the frontal and parietal bones, are formed by which type of ossification?",
+                        "img": "",
+                        "choices": "Endochondral ossification///Intramembranous ossification///Cartilaginous ossification///Sclerotic ossification///Mesenchymal ossification",
+                        "answer": "Intramembranous ossification",
+                        "select": "",
+                        "explain": "Intramembranous ossification คือกระบวนการสร้างกระดูกที่เกิดขึ้นโดยตรงจากเนื้อเยื่อ Mesenchyme โดยไม่มีกระดูกอ่อนเป็นแม่แบบ ซึ่งเป็นลักษณะการสร้างกระดูกแบนของกะโหลกศีรษะ (neurocranium) และกระดูกไหปลาร้า (clavicle)",
+                        "state": false
+                    },
+                    {
+                        "problem": "6. A patient presents with a short, tower-like skull (turribrachycephaly), exorbitism (protruding eyes), and syndactyly. Which genetic syndrome is the most likely diagnosis?",
+                        "img": "",
+                        "choices": "Crouzon syndrome///Apert syndrome///Pfeiffer syndrome///Poland sequence///Achondroplasia",
+                        "answer": "Apert syndrome",
+                        "select": "",
+                        "explain": "Apert syndrome เป็นภาวะ craniosynostosis ชนิดหนึ่งที่มีลักษณะเฉพาะคือการเชื่อมติดกันก่อนวัยอันควรของรอยต่อกะโหลกศีรษะ (cranial sutures) ทำให้รูปทรงศีรษะผิดปกติ ร่วมกับภาวะนิ้วติดกัน (syndactyly) ส่วน Crouzon syndrome โดยทั่วไปจะไม่มีความผิดปกติของแขนขาร่วมด้วย",
+                        "state": false
+                    },
+                    {
+                        "problem": "7. The intrinsic muscles of the back, such as the erector spinae, are derived from which embryonic structure and are innervated by which nerve rami?",
+                        "img": "",
+                        "choices": "Epimere, ventral rami///Hypomere, dorsal rami///Epimere, dorsal rami///Hypomere, ventral rami///Neural crest, cranial nerves",
+                        "answer": "Epimere, dorsal rami",
+                        "select": "",
+                        "explain": "Myotome จะแบ่งออกเป็น Epimere (dorsal) และ Hypomere (ventral) โดย Epimere จะเจริญไปเป็นกล้ามเนื้อแท้ๆของหลัง (intrinsic back muscles) และมีลักษณะเฉพาะคือถูกเลี้ยงโดย Dorsal rami ของเส้นประสาทไขสันหลัง",
+                        "state": false
+                    },
+                    {
+                        "problem": "8. Which of the following bones is derived from neural crest cells? (Viscerocranium part)",
+                        "img": "",
+                        "choices": "Parietal bone///Mandible///Femur///Sternum///Vertebra",
+                        "answer": "Mandible",
+                        "select": "",
+                        "explain": "Neural crest cells จะเคลื่อนที่ไปสร้างโครงสร้างต่างๆ ของศีรษะและใบหน้า ส่วนของกะโหลกศีรษะที่เกี่ยวกับใบหน้า (Viscerocranium) ซึ่งรวมถึงกระดูกขากรรไกรล่าง (Mandible) และขากรรไกรบน (Maxilla) ส่วนใหญ่เจริญมาจาก Neural crest cells ของ Pharyngeal arch ที่ 1 และ 2",
+                        "state": false
+                    },
+                    {
+                        "problem": "9. Achondroplasia, the most common form of dwarfism, is caused by a defect in:",
+                        "img": "",
+                        "choices": "Intramembranous ossification///Apoptosis///Neural crest migration///Endochondral ossification///Myogenesis",
+                        "answer": "Endochondral ossification",
+                        "select": "",
+                        "explain": "Achondroplasia เป็นผลมาจากการกลายพันธุ์ที่ส่งผลต่อการแบ่งตัวและพัฒนาของเซลล์กระดูกอ่อน (chondrocytes) ที่บริเวณแผ่นการเจริญเติบโต (epiphyseal growth plates) ซึ่งไปขัดขวางกระบวนการ Endochondral ossification ซึ่งเป็นกระบวนการที่กระดูกยาวใช้ในการเพิ่มความยาว ทำให้แขนขาสั้นผิดส่วน",
+                        "state": false
+                    },
+                    {
+                        "problem": "10. What is the developmental origin of the sternum?",
+                        "img": "",
+                        "choices": "Paraxial mesoderm///Sclerotome///Neural crest///Somatic layer of lateral plate mesoderm///Endoderm",
+                        "answer": "Somatic layer of lateral plate mesoderm",
+                        "select": "",
+                        "explain": "กระดูกอก (Sternum) เจริญมาจากแท่งกระดูกอก 2 แท่ง (sternal bars) ที่อยู่ในผนังลำตัวด้านหน้า ซึ่งมีต้นกำเนิดมาจาก Somatic (parietal) layer of lateral plate mesoderm หลังจากนั้นแท่งกระดูกทั้งสองจะเคลื่อนมาเชื่อมกันตรงกลาง",
+                        "state": false
+                    },
+                    {
+                        "problem": "11. The process of vertebral 'resegmentation' involves:",
+                        "img": "",
+                        "choices": "Fusion of two entire somites///The cranial half of one sclerotome fusing with the caudal half of the sclerotome below it///The myotome splitting to allow nerve passage///Apoptosis of the notochord///The dermatome migrating to form skin",
+                        "answer": "The cranial half of one sclerotome fusing with the caudal half of the sclerotome below it",
+                        "select": "",
+                        "explain": "ระหว่างการสร้างกระดูกสันหลัง Sclerotome แต่ละปล้องจะแบ่งออกเป็นส่วนบน (cranial) และส่วนล่าง (caudal) จากนั้นส่วนล่างของ Sclerotome ชิ้นหนึ่งจะไปรวมกับส่วนบนของ Sclerotome ที่อยู่ถัดลงไป การจัดเรียงตัวใหม่ (resegmentation) นี้ทำให้เส้นประสาทไขสันหลังสามารถออกมาจากช่องระหว่างกระดูกสันหลังได้",
+                        "state": false
+                    },
+                    {
+                        "problem": "12. Absence of the Pectoralis major muscle, often associated with ipsilateral hand anomalies, is characteristic of which condition?",
+                        "img": "",
+                        "choices": "Duchenne's muscular dystrophy///Prune belly syndrome///Congenital torticollis///Poland sequence///Apert syndrome",
+                        "answer": "Poland sequence",
+                        "select": "",
+                        "explain": "Poland sequence เป็นความผิดปกติแต่กำเนิดที่มีลักษณะเฉพาะคือการไม่มีกล้ามเนื้อ Pectoralis major ส่วน sternocostal head ข้างใดข้างหนึ่ง และมักพบร่วมกับความผิดปกติของมือข้างเดียวกัน เช่น ภาวะนิ้วติดกัน (syndactyly) หรือนิ้วสั้น (brachydactyly)",
+                        "state": false
+                    },
+                    {
+                        "problem": "13. The proximal-distal development of the limb is orchestrated by a key signaling center located at the tip of the limb bud. What is this structure called?",
+                        "img": "",
+                        "choices": "Apical Ectodermal Ridge (AER)///Zone of Polarizing Activity (ZPA)///Notochord///Sclerotome///Neural crest",
+                        "answer": "Apical Ectodermal Ridge (AER)",
+                        "select": "",
+                        "explain": "Apical Ectodermal Ridge (AER) คือกลุ่มเซลล์ Ectoderm ที่หนาตัวขึ้นบริเวณปลายสุดของตุ่มระยางค์ (limb bud) ทำหน้าที่สร้างสารควบคุมการเจริญ (เช่น FGFs) เพื่อกระตุ้นให้ Mesenchyme ที่อยู่ข้างใต้แบ่งตัวอยู่ตลอดเวลา ทำให้ระยางค์ยืดยาวออกไปในทิศทางจากใกล้ไปไกล (proximal-to-distal)",
+                        "state": false
+                    },
+                    {
+                        "problem": "14. A newborn has a head shape that is long and narrow (scaphocephaly). This is most likely due to the premature fusion of which cranial suture?",
+                        "img": "",
+                        "choices": "Coronal suture///Lambdoid suture///Metopic suture///Sagittal suture///Squamous suture",
+                        "answer": "Sagittal suture",
+                        "select": "",
+                        "explain": "Scaphocephaly เป็นรูปแบบหนึ่งของ Craniosynostosis ที่เกิดจากการเชื่อมติดกันก่อนวัยอันควรของ Sagittal suture ซึ่งขัดขวางการขยายตัวของกะโหลกไปด้านข้าง และบีบให้ต้องเจริญในแนวหน้า-หลังแทน ทำให้มีรูปทรงยาวและแคบ",
+                        "state": false
+                    },
+                    {
+                        "problem": "15. The muscles of the abdominal wall, such as the rectus abdominis and obliques, are derived from which division of the myotome?",
+                        "img": "",
+                        "choices": "Epimere///Hypomere///Dermatome///Sclerotome///Somitomere",
+                        "answer": "Hypomere",
+                        "select": "",
+                        "explain": "Hypomere (hypaxial division) ของ Myotome จะเจริญไปเป็นกล้ามเนื้อของผนังลำตัวด้านหน้า (รวมถึงกล้ามเนื้อหน้าท้อง) และกล้ามเนื้อของระยางค์ กล้ามเนื้อเหล่านี้ถูกเลี้ยงโดย Ventral rami ของเส้นประสาทไขสันหลัง",
+                        "state": false
+                    },
+                    {
+                        "problem": "16. Which of the following conditions is an X-linked recessive disorder caused by the absence of the protein dystrophin, leading to progressive muscle weakness?",
+                        "img": "",
+                        "choices": "Achondroplasia///Congenital torticollis///Prune belly syndrome///Duchenne's muscular dystrophy (DMD)///Poland sequence",
+                        "answer": "Duchenne's muscular dystrophy (DMD)",
+                        "select": "",
+                        "explain": "DMD เป็นโรคทางพันธุกรรมที่เกิดจากการกลายพันธุ์ของยีน Dystrophin บนโครโมโซม X การขาดโปรตีน Dystrophin ที่ใช้งานได้จะทำลายความสมบูรณ์ของโครงสร้างเส้นใยกล้ามเนื้อ นำไปสู่การเสื่อมและอ่อนแรงของกล้ามเนื้อที่รุนแรงขึ้นเรื่อยๆ",
+                        "state": false
+                    },
+                    {
+                        "problem": "17. A baby is born with a condition where the hands are attached directly to the trunk, with the arms being very short or absent. This limb malformation is known as:",
+                        "img": "",
+                        "choices": "Amelia///Phocomelia///Polydactyly///Syndactyly///Brachydactyly",
+                        "answer": "Phocomelia",
+                        "select": "",
+                        "explain": "Phocomelia เป็นความผิดปกติแต่กำเนิดที่พบได้ยาก ซึ่งส่วนต้นของระยางค์ (เช่น กระดูก Humerus, Femur) ไม่เจริญหรือไม่มีเลย ในขณะที่ส่วนปลาย (มือ, เท้า) ค่อนข้างปกติ แต่มาต่อติดกับลำตัวโดยตรง ทำให้มีลักษณะคล้ายครีบของแมวน้ำ",
+                        "state": false
+                    },
+                    {
+                        "problem": "18. The notochord plays a crucial inductive role in the development of the musculoskeletal system by signaling the overlying ectoderm to form the neural tube and signaling the paraxial mesoderm to form the:",
+                        "img": "",
+                        "choices": "Dermatome///Myotome///Sclerotome///Limb buds///Sternum",
+                        "answer": "Sclerotome",
+                        "select": "",
+                        "explain": "Notochord จะหลั่งสารส่งสัญญาณ เช่น Sonic hedgehog (Shh) ซึ่งจะกระตุ้นให้ส่วนล่างและส่วนใน (ventromedial) ของ Somite พัฒนาไปเป็น Sclerotome ซึ่งเป็นเซลล์ต้นกำเนิดของกระดูกสันหลัง",
+                        "state": false
+                    },
+                    {
+                        "problem": "19. The soft spots on a newborn's skull, known as fontanelles, are remnants of:",
+                        "img": "",
+                        "choices": "Cartilaginous tissue from endochondral ossification///Fibrous membranous tissue between cranial bones///Unfused vertebral arches///Remnants of the notochord///Apoptotic zones",
+                        "answer": "Fibrous membranous tissue between cranial bones",
+                        "select": "",
+                        "explain": "กระหม่อม (Fontanelles) คือช่องว่างกว้างๆ ที่เต็มไปด้วยเนื้อเยื่อเกี่ยวพันชนิดเส้นใย ซึ่งอยู่บริเวณที่กระดูกกะโหลกมากกว่าสองชิ้นมาบรรจบกัน ทำหน้าที่ช่วยให้กะโหลกศีรษะสามารถปรับเปลี่ยนรูปร่างระหว่างการคลอดและรองรับการเติบโตอย่างรวดเร็วของสมองได้ ในที่สุดก็จะเกิดการสร้างกระดูกจนกลายเป็นรอยต่อ (suture)",
+                        "state": false
+                    },
+                    {
+                        "problem": "20. The facial expression muscles, such as the orbicularis oculi and zygomaticus, develop from which embryonic structures?",
+                        "img": "",
+                        "choices": "Somitomeres of the first pharyngeal arch///Mesenchyme of the second pharyngeal arch///Epimere of cervical somites///Hypomere of thoracic somites///Neural crest cells directly",
+                        "answer": "Mesenchyme of the second pharyngeal arch",
+                        "select": "",
+                        "explain": "กล้ามเนื้อแสดงสีหน้าเจริญมาจากเนื้อเยื่อ Mesenchyme ของ Pharyngeal arch อันที่ 2 (Hyoid arch) นี่คือเหตุผลที่กล้ามเนื้อกลุ่มนี้ทั้งหมดถูกเลี้ยงโดยเส้นประสาทของ arch ที่ 2 ซึ่งก็คือเส้นประสาทใบหน้า (Facial nerve, CN VII)",
+                        "state": false
+                    },
+                    {
+                        "problem": "21. A newborn presents with a twisted neck (torticollis), where the head is tilted to one side and the chin points to the opposite side. This is most often caused by an injury to which muscle?",
+                        "img": "",
+                        "choices": "Trapezius///Scalenes///Sternocleidomastoid (SCM)///Platysma///Rectus capitis posterior major",
+                        "answer": "Sternocleidomastoid (SCM)",
+                        "select": "",
+                        "explain": "ภาวะคอเอียงแต่กำเนิด (Congenital muscular torticollis) โดยทั่วไปเกิดจากการบาดเจ็บหรือการเกิดพังผืดของกล้ามเนื้อ Sternocleidomastoid (SCM) ซึ่งมักมาจากการบาดเจ็บระหว่างคลอด กล้ามเนื้อที่หดตัวจะดึงปุ่มกระดูก Mastoid เข้าหาไหปลาร้าและกระดูกอก ทำให้เกิดท่าทางคอเอียงที่เป็นลักษณะเฉพาะ",
+                        "state": false
+                    },
+                    {
+                        "problem": "22. The formation of synovial joints, such as the knee joint, begins with the condensation of which tissue between developing bone models?",
+                        "img": "",
+                        "choices": "Ectoderm///Interzonal mesoderm///Notochord///Neural crest///Sclerotome",
+                        "answer": "Interzonal mesoderm",
+                        "select": "",
+                        "explain": "ข้อต่อต่างๆ เกิดขึ้นจาก Interzonal mesenchyme ที่อยู่ระหว่างแม่แบบกระดูกอ่อนของกระดูกสองชิ้นที่กำลังเจริญ เนื้อเยื่อ Mesenchyme นี้จะพัฒนาไปเป็นส่วนประกอบต่างๆ ของข้อต่อ เช่น เยื่อหุ้มข้อ (joint capsule), เอ็นยึดข้อ (ligaments) และในข้อต่อชนิดซินโนเวียล (synovial joints) ก็จะสร้างเยื่อบุข้อ (synovial membrane) ด้วย",
+                        "state": false
+                    },
+                    {
+                        "problem": "23. If formation of the dermatome was disrupted, which tissue would be most directly affected?",
+                        "img": "",
+                        "choices": "Vertebrae///Intrinsic back muscles///Dermis of the skin///Limb bones///Gut wall",
+                        "answer": "Dermis of the skin",
+                        "select": "",
+                        "explain": "Somite จะแบ่งตัวออกเป็น 3 ส่วน คือ Sclerotome (กระดูก), Myotome (กล้ามเนื้อ), และ Dermatome ส่วนของ Dermatome จะเคลื่อนที่ไปอยู่ใต้ Ectoderm เพื่อสร้างเป็นหนังแท้ (Dermis) ซึ่งเป็นชั้นเนื้อเยื่อเกี่ยวพันของผิวหนัง โดยเฉพาะบริเวณหลัง",
+                        "state": false
+                    },
+                    {
+                        "problem": "24. A severe form of spina bifida where the cyst contains the spinal cord, meninges, and CSF is called:",
+                        "img": "",
+                        "choices": "Spina bifida occulta///Meningocele///Encephalocele///Meningomyelocele///Hemivertebra",
+                        "answer": "Meningomyelocele",
+                        "select": "",
+                        "explain": "Meningomyelocele เป็นรูปแบบที่รุนแรงและพบบ่อยที่สุดของ Spina bifida cystica โดยถุงที่ยื่นออกมาไม่เพียงแต่มีเยื่อหุ้มสมองไขสันหลัง (meningo-) และน้ำหล่อเลี้ยงสมองไขสันหลัง (CSF) เท่านั้น แต่ยังมีเนื้อเยื่อประสาทซึ่งก็คือตัวไขสันหลัง (myelo-) อยู่ภายในด้วย",
+                        "state": false
+                    },
+                    {
+                        "problem": "25. Which of the following is an example of a bone formed by endochondral ossification?",
+                        "img": "",
+                        "choices": "Frontal bone///Parietal bone///Clavicle (medial part)///Humerus///Mandible (partially)",
+                        "answer": "Humerus",
+                        "select": "",
+                        "explain": "Endochondral ossification เป็นกระบวนการที่กระดูกถูกสร้างขึ้นโดยการแทนที่แม่แบบที่เป็นกระดูกอ่อนไฮยาลิน (hyaline cartilage) ซึ่งเป็นกลไกการสร้างกระดูกส่วนใหญ่ในร่างกาย รวมถึงกระดูกยาวของแขนขาทั้งหมด เช่น กระดูกต้นแขน (Humerus)",
+                        "state": false
+                    },
+                    {
+                        "problem": "26. Deficiency in which embryonic germ layer would lead to a failure in the development of nearly all skeletal muscle?",
+                        "img": "",
+                        "choices": "Ectoderm///Endoderm///Mesoderm///Neural crest///Yolk Sac",
+                        "answer": "Mesoderm",
+                        "select": "",
+                        "explain": "กล้ามเนื้อลายเกือบทั้งหมดในร่างกายมีต้นกำเนิดมาจากเนื้อเยื่อชั้นกลาง (Mesoderm) โดยเฉพาะอย่างยิ่งจาก Paraxial mesoderm (ซึ่งสร้าง Somites และ Somitomeres) และ Lateral plate mesoderm (สำหรับกล้ามเนื้อเรียบบางส่วน)",
+                        "state": false
+                    },
+                    {
+                        "problem": "27. The muscles of mastication, such as the temporalis and masseter, develop from:",
+                        "img": "",
+                        "choices": "The first pharyngeal arch///The second pharyngeal arch///The third pharyngeal arch///Cervical somites///Hypomere",
+                        "answer": "The first pharyngeal arch",
+                        "select": "",
+                        "explain": "กล้ามเนื้อที่ใช้ในการบดเคี้ยวเจริญมาจากเนื้อเยื่อ Mesenchyme ของ Pharyngeal arch อันที่ 1 (Mandibular arch) ดังนั้น กล้ามเนื้อกลุ่มนี้จึงถูกเลี้ยงโดยเส้นประสาทของ arch ที่ 1 ซึ่งก็คือเส้นประสาท Trigeminal nerve สาขา Mandibular (CN V3)",
+                        "state": false
+                    },
+                    {
+                        "problem": "28. Prune belly syndrome is characterized by the congenital absence of which muscle group?",
+                        "img": "",
+                        "choices": "Intrinsic back muscles///Facial expression muscles///Limb muscles///Anterior abdominal wall muscles///Masticatory muscles",
+                        "answer": "Anterior abdominal wall muscles",
+                        "select": "",
+                        "explain": "Prune belly syndrome หรือ Eagle-Barrett syndrome เป็นกลุ่มความผิดปกติ 3 อย่าง ได้แก่ การไม่มีหรือพร่องอย่างรุนแรงของกล้ามเนื้อผนังหน้าท้อง, อัณฑะไม่เคลื่อนลงถุง, และความผิดปกติของระบบทางเดินปัสสาวะ การไม่มีกล้ามเนื้อหน้าท้องทำให้หน้าท้องมีลักษณะเหี่ยวย่นคล้าย 'ลูกพรุน'",
+                        "state": false
+                    },
+                    {
+                        "problem": "29. The term 'amelia' refers to which congenital limb malformation?",
+                        "img": "",
+                        "choices": "Extra digits///Fused digits///Shortened limbs///Complete absence of a limb///Abnormally small digits",
+                        "answer": "Complete absence of a limb",
+                        "select": "",
+                        "explain": "Amelia เป็นความผิดปกติแต่กำเนิดที่มีลักษณะคือการไม่มีแขนหรือขาข้างใดข้างหนึ่งหรือทั้งหมด ซึ่งเป็นผลมาจากความล้มเหลวในการเจริญของตุ่มระยางค์ (limb bud) ตั้งแต่ระยะแรกๆ ในช่วงสัปดาห์ที่ 4 ของการตั้งครรภ์",
+                        "state": false
+                    },
+                    {
+                        "problem": "30. The skull base, or chondrocranium, primarily forms through which process?",
+                        "img": "",
+                        "choices": "Intramembranous ossification///Direct differentiation from neural crest///Endochondral ossification///Apoptosis of mesenchyme///Fusion of somites",
+                        "answer": "Endochondral ossification",
+                        "select": "",
+                        "explain": "ฐานของกะโหลกศีรษะ (Chondrocranium) ถูกสร้างขึ้นจากการรวมตัวของกระดูกอ่อนหลายชิ้น ซึ่งต่อมาจะเกิดกระบวนการแทนที่ด้วยกระดูกที่เรียกว่า Endochondral ossification ซึ่งแตกต่างจากกระดูกแบนของส่วนคลุมกะโหลก (cranial vault) ที่สร้างผ่านกระบวนการ Intramembranous ossification",
+                        "state": false
+                    }
+                ],
+                "MCQ2_MicroanatomyMS": [
                     {
                         "problem": "68. กระดูกในข้อใดสร้างแบบ endochondral ossification (Which of the following bones is formed by endochondral ossification?)",
                         "img": "",
@@ -5339,8 +5595,189 @@
                         "select": "",
                         "explain": "Endochondral ossification คือกระบวนการสร้างกระดูกยาว (long bones) โดยมีต้นแบบ (model) มาจากกระดูกอ่อนชนิด Hyaline cartilage ซึ่งจะค่อยๆ ถูกแทนที่ด้วยเนื้อกระดูก ส่วน intramembranous ossification จะเป็นการสร้างกระดูกจาก mesenchymal tissue โดยตรง เช่น กระดูกกะโหลกศีรษะ",
                         "state": false
-                    }],
-                MCQ2_3_RadioPathologyClinical: [
+                    },
+                    {
+                        "problem": "31. Which component of cartilage matrix is primarily responsible for its ability to act as a shock absorber by binding a large amount of water?",
+                        "img": "",
+                        "choices": "Collagen type II fibers///Elastic fibers///Proteoglycans (GAGs)///Calcium hydroxyapatite///Collagen type I fibers",
+                        "answer": "Proteoglycans (GAGs)",
+                        "select": "",
+                        "explain": "Proteoglycans ซึ่งมี Glycosaminoglycans (GAGs) เป็นส่วนประกอบ มีประจุลบสูง ทำให้สามารถดึงดูดและจับกับโมเลกุลของน้ำได้เป็นจำนวนมาก (60-80% ของเมทริกซ์) ทำให้กระดูกอ่อนมีความสามารถในการทนต่อแรงกดและทำหน้าที่เหมือนตัวรับแรงกระแทก (shock absorber)",
+                        "state": false
+                    },
+                    {
+                        "problem": "32. The process of cartilage growth from within, caused by the mitosis of chondrocytes, is called:",
+                        "img": "",
+                        "choices": "Appositional growth///Interstitial growth///Endochondral growth///Intramembranous growth///Remodeling",
+                        "answer": "Interstitial growth",
+                        "select": "",
+                        "explain": "Interstitial growth (การเจริญจากภายใน) คือกระบวนการที่ Chondrocytes ที่มีอยู่เดิมแบ่งตัวแบบ mitosis แล้วสร้างเมทริกซ์ใหม่รอบๆ ตัว ทำให้ก้อนกระดูกอ่อนมีขนาดใหญ่ขึ้นจากภายใน มักมีความสำคัญต่อการเพิ่มความยาวของกระดูกในระยะแรก",
+                        "state": false
+                    },
+                    {
+                        "problem": "33. Why is the repair of damaged cartilage in adults often slow and incomplete?",
+                        "img": "",
+                        "choices": "Because it is covered by a thick periosteum///Due to its avascularity and low metabolic rate///Because chondrocytes cannot divide///Because it contains too much water///Due to the rapid calcification process",
+                        "answer": "Due to its avascularity and low metabolic rate",
+                        "select": "",
+                        "explain": "กระดูกอ่อนเป็นเนื้อเยื่อที่ไม่มีหลอดเลือดมาเลี้ยงโดยตรง (avascularity) ทำให้เซลล์มีอัตราการเผาผลาญต่ำ (low metabolic rate) การได้รับสารอาหารและเซลล์ที่จำเป็นต่อการซ่อมแซมจึงเป็นไปได้ช้าและจำกัด ส่งผลให้การซ่อมแซมตัวเองในผู้ใหญ่เป็นไปได้ไม่สมบูรณ์และมักเกิดเป็นพังผืดแทน",
+                        "state": false
+                    },
+                    {
+                        "problem": "34. Which protein, such as BMP-7, is known to induce the differentiation of mesenchymal cells into osteoblasts and is used clinically to promote bone growth?",
+                        "img": "",
+                        "choices": "Collagen///Osteocalcin///Alkaline phosphatase///Bone Morphogenetic Protein (BMP)///Osteonectin",
+                        "answer": "Bone Morphogenetic Protein (BMP)",
+                        "select": "",
+                        "explain": "Bone Morphogenetic Proteins (BMPs) เป็นกลุ่มของโปรตีนในเมทริกซ์กระดูกที่ทำหน้าที่เป็นสารกระตุ้นการเจริญ โดยสามารถชักนำให้เซลล์ต้นกำเนิดชนิดมีเซนไคม์ (mesenchymal cells) พัฒนาไปเป็นเซลล์สร้างกระดูก (osteoblasts) ได้ จึงถูกนำมาใช้ทางการแพทย์เพื่อช่วยในการสมานของกระดูก",
+                        "state": false
+                    },
+                    {
+                        "problem": "35. The diaphysis of a long bone refers to its:",
+                        "img": "",
+                        "choices": "Expanded end, covered with cartilage///Shaft or body///Growth plate area///Inner medullary cavity///Outer fibrous covering",
+                        "answer": "Shaft or body",
+                        "select": "",
+                        "explain": "Diaphysis คือส่วนกลางหรือลำของกระดูกยาว (long bone) ซึ่งมีลักษณะเป็นท่อของกระดูกทึบ (compact bone) และมีโพรงไขกระดูก (medullary cavity) อยู่ภายใน ส่วนปลายของกระดูกเรียกว่า Epiphysis",
+                        "state": false
+                    },
+                    {
+                        "problem": "36. Osteocalcin, a protein found in bone matrix secreted by osteoblasts, plays a role in:",
+                        "img": "",
+                        "choices": "Inducing mesenchymal cell differentiation///Binding calcium ions and stimulating osteoclasts///Forming collagen fibers///Resorbing bone matrix///Providing flexibility to the bone",
+                        "answer": "Binding calcium ions and stimulating osteoclasts",
+                        "select": "",
+                        "explain": "Osteocalcin เป็นโปรตีนที่สร้างโดย osteoblasts มีคุณสมบัติในการจับกับแคลเซียมไอออน ซึ่งเป็นส่วนหนึ่งของกระบวนการสะสมแร่ธาตุในกระดูก (mineralization) นอกจากนี้ยังมีบทบาทในการควบคุมการทำงานของ osteoclasts ในกระบวนการปรับเปลี่ยนโครงสร้างกระดูก (bone remodeling)",
+                        "state": false
+                    },
+                    {
+                        "problem": "37. In osteoarthritis, the primary pathological change is the degeneration of which structure?",
+                        "img": "",
+                        "choices": "Synovial membrane///Periosteum///Articular cartilage///Bone marrow///Underlying compact bone",
+                        "answer": "Articular cartilage",
+                        "select": "",
+                        "explain": "โรคข้อเสื่อม (Osteoarthritis) มีลักษณะเด่นคือการเสื่อมและสึกกร่อนของกระดูกอ่อนผิวข้อ (articular cartilage) ทำให้ผิวข้อไม่เรียบ เกิดการเสียดสี และนำไปสู่อาการปวด บวม และการเปลี่ยนแปลงของกระดูกใต้ผิวข้อ เช่น การหนาตัวขึ้น (subchondral bone thickening) และการเกิดกระดูกงอก (osteophytes)",
+                        "state": false
+                    },
+                    {
+                        "problem": "38. Which type of joint is held together by hyaline cartilage, such as the joint between the first rib and the sternum?",
+                        "img": "",
+                        "choices": "Symphysis///Suture///Synovial joint///Synchondrosis///Syndesmosis",
+                        "answer": "Synchondrosis",
+                        "select": "",
+                        "explain": "Synchondrosis คือข้อต่อชนิดกระดูกอ่อน (cartilaginous joint) ที่กระดูกสองชิ้นถูกเชื่อมกันด้วยกระดูกอ่อนไฮยาลิน (hyaline cartilage) ซึ่งเป็นข้อต่อที่เคลื่อนไหวไม่ได้หรือได้น้อยมาก ตัวอย่างคือข้อต่อระหว่างกระดูกซี่โครงซี่ที่ 1 กับกระดูกอก และแผ่นการเจริญ (epiphyseal plate)",
+                        "state": false
+                    },
+                    {
+                        "problem": "39. The 'territorial matrix' surrounding an isogenous group of chondrocytes stains more basophilic because it is relatively rich in:",
+                        "img": "",
+                        "choices": "Collagen fibers///Elastic fibers///Glycosaminoglycans (GAGs)///Blood vessels///Calcium phosphate",
+                        "answer": "Glycosaminoglycans (GAGs)",
+                        "select": "",
+                        "explain": "Territorial matrix คือเมทริกซ์ที่อยู่รอบๆ กลุ่มเซลล์กระดูกอ่อนโดยตรง จะติดสีม่วงเข้ม (basophilic) มากกว่าส่วนอื่น เนื่องจากมีความเข้มข้นของ Glycosaminoglycans (GAGs) ที่มีประจุลบสูงอยู่มาก ในขณะที่ Interterritorial matrix ที่อยู่ไกลออกไปจะมีสัดส่วนของคอลลาเจนมากกว่า",
+                        "state": false
+                    },
+                    {
+                        "problem": "40. A deficiency in Vitamin C (scurvy) impairs bone formation primarily by affecting:",
+                        "img": "",
+                        "choices": "Calcium absorption///Osteoclast activity///The synthesis of collagen///Chondrocyte proliferation///Blood vessel invasion",
+                        "answer": "The synthesis of collagen",
+                        "select": "",
+                        "explain": "วิตามินซีเป็นปัจจัยร่วม (cofactor) ที่สำคัญอย่างยิ่งในกระบวนการสังเคราะห์คอลลาเจน การขาดวิตามินซีจะทำให้การสร้างคอลลาเจนซึ่งเป็นองค์ประกอบหลักของเมทริกซ์กระดูก (osteoid) บกพร่องไป ส่งผลให้การสร้างกระดูกและการซ่อมแซมบาดแผลช้าลง",
+                        "state": false
+                    },
+                    {
+                        "problem": "41. During the repair of a bone fracture, what is the initial structure that forms immediately after the fracture hematoma?",
+                        "img": "",
+                        "choices": "Hard callus (Woven bone)///Soft callus (Fibrocartilage)///Lamellar bone///Granulation tissue///A new periosteum",
+                        "answer": "Granulation tissue",
+                        "select": "",
+                        "explain": "หลังเกิดก้อนเลือด (hematoma) แล้ว กระบวนการอักเสบจะชักนำให้เกิดการสร้าง Granulation tissue ซึ่งเป็นเนื้อเยื่อที่เต็มไปด้วยหลอดเลือดฝอยและเซลล์ต่างๆ เช่น fibroblast ซึ่งต่อมาเนื้อเยื่อนี้จะถูกแทนที่ด้วย Soft callus ที่เป็นกระดูกอ่อนและเนื้อเยื่อเกี่ยวพัน",
+                        "state": false
+                    },
+                    {
+                        "problem": "42. The flared portion of a long bone, between the shaft and the end, is known as the:",
+                        "img": "",
+                        "choices": "Epiphysis///Diaphysis///Metaphysis///Periosteum///Articular cartilage",
+                        "answer": "Metaphysis",
+                        "select": "",
+                        "explain": "Metaphysis คือส่วนของกระดูกยาวที่อยู่ระหว่างส่วนกลาง (Diaphysis) กับส่วนปลาย (Epiphysis) ในเด็กจะเป็นที่อยู่ของแผ่นการเจริญเติบโต (Epiphyseal plate) ซึ่งเป็นส่วนที่สำคัญต่อการเพิ่มความยาวของกระดูก",
+                        "state": false
+                    },
+                    {
+                        "problem": "43. Cells that produce synovial fluid in a joint are called:",
+                        "img": "",
+                        "choices": "Chondrocytes///Osteocytes///Fibroblasts///Synoviocytes///Osteoclasts",
+                        "answer": "Synoviocytes",
+                        "select": "",
+                        "explain": "Synoviocytes คือเซลล์ชนิดพิเศษที่บุอยู่ชั้นในของเยื่อบุข้อ (Synovial membrane) ทำหน้าที่สร้างและหลั่งน้ำไขข้อ (Synovial fluid) ซึ่งมีส่วนประกอบสำคัญคือ hyaluronan และ lubricin ช่วยในการหล่อลื่นและลดแรงเสียดทานในข้อต่อ",
+                        "state": false
+                    },
+                    {
+                        "problem": "44. The cells responsible for cartilage formation, which are derived from mesenchymal cells and secrete matrix, are called:",
+                        "img": "",
+                        "choices": "Chondrocytes///Chondroblasts///Osteoblasts///Fibroblasts///Chondroclasts",
+                        "answer": "Chondroblasts",
+                        "select": "",
+                        "explain": "Chondroblasts คือเซลล์สร้างกระดูกอ่อนที่ยังไม่เจริญเต็มที่ มีต้นกำเนิดจากเซลล์มีเซนไคม์ (mesenchymal cells) ทำหน้าที่สร้างเมทริกซ์ของกระดูกอ่อน (ECM) เมื่อมันสร้างเมทริกซ์ล้อมรอบตัวเองจนถูกขังอยู่ใน Lacuna จะถูกเรียกว่า Chondrocyte",
+                        "state": false
+                    },
+                    {
+                        "problem": "45. Postmenopausal osteoporosis is primarily caused by:",
+                        "img": "",
+                        "choices": "Increased osteoblast activity///Decreased estrogen levels leading to increased osteoclast activity///A lack of dietary calcium///A defect in collagen synthesis///Overproduction of parathyroid hormone",
+                        "answer": "Decreased estrogen levels leading to increased osteoclast activity",
+                        "select": "",
+                        "explain": "ในภาวะหมดประจำเดือน ระดับฮอร์โมนเอสโตรเจนจะลดลงอย่างมาก ซึ่งฮอร์โมนนี้มีฤทธิ์ยับยั้งการทำงานของ Osteoclast (เซลล์สลายกระดูก) เมื่อไม่มีเอสโตรเจนมาคอยยับยั้ง Osteoclast จะทำงานมากขึ้น ทำให้กระบวนการสลายกระดูกเด่นกว่าการสร้างกระดูก นำไปสู่ภาวะกระดูกพรุน",
+                        "state": false
+                    },
+                    {
+                        "problem": "46. What is the key difference between the matrix of fibrocartilage and hyaline cartilage?",
+                        "img": "",
+                        "choices": "Fibrocartilage lacks proteoglycans///Fibrocartilage has abundant Type I collagen///Fibrocartilage contains elastic fibers///Hyaline cartilage lacks Type II collagen///Fibrocartilage is vascularized",
+                        "answer": "Fibrocartilage has abundant Type I collagen",
+                        "select": "",
+                        "explain": "ข้อแตกต่างที่สำคัญคือชนิดของคอลลาเจน ในขณะที่กระดูกอ่อนไฮยาลินมีคอลลาเจนชนิดที่ 2 เป็นหลัก กระดูกอ่อนไฟโบร (Fibrocartilage) จะมีคอลลาเจนชนิดที่ 1 (ซึ่งเป็นชนิดเดียวกับที่พบในกระดูกและเอ็น) เป็นมัดหนาแทรกอยู่เป็นจำนวนมาก ทำให้มีความทนทานต่อแรงดึงสูงเป็นพิเศษ",
+                        "state": false
+                    },
+                    {
+                        "problem": "47. The 'ruffled border' is a specialized micro-structure of which cell?",
+                        "img": "",
+                        "choices": "Osteoblast///Osteocyte///Osteoclast///Chondrocyte///Synoviocyte",
+                        "answer": "Osteoclast",
+                        "select": "",
+                        "explain": "Ruffled border คือส่วนของเยื่อหุ้มเซลล์ของ Osteoclast ที่มีการพับทบไปมาจำนวนมาก ทำให้เพิ่มพื้นที่ผิวสัมผัสกับกระดูก เป็นบริเวณที่ Osteoclast ใช้หลั่งกรดและเอนไซม์เพื่อทำการสลายเมทริกซ์ของกระดูก (bone resorption) อย่างมีประสิทธิภาพ",
+                        "state": false
+                    },
+                    {
+                        "problem": "48. A deficiency in Vitamin D can cause rickets in children because it is essential for:",
+                        "img": "",
+                        "choices": "Collagen production///Chondrocyte mitosis///Calcium absorption from the gut///Osteoclast formation///Blood vessel growth",
+                        "answer": "Calcium absorption from the gut",
+                        "select": "",
+                        "explain": "วิตามินดีมีความสำคัญอย่างยิ่งต่อการดูดซึมแคลเซียมจากลำไส้ เมื่อขาดวิตามินดี ร่างกายจะไม่สามารถดูดซึมแคลเซียมได้เพียงพอ ทำให้เมทริกซ์กระดูก (osteoid) ที่สร้างขึ้นไม่สามารถสะสมแคลเซียม (calcify) ได้ตามปกติ ส่งผลให้กระดูกอ่อนและผิดรูป ซึ่งในเด็กเรียกว่าโรคกระดูกอ่อน (Rickets)",
+                        "state": false
+                    },
+                    {
+                        "problem": "49. The outer fibrous layer of the perichondrium is primarily composed of:",
+                        "img": "",
+                        "choices": "Elastic fibers and osteoblasts///Loose connective tissue and chondrocytes///Dense connective tissue with Type I collagen and fibroblasts///Adipose tissue///Reticular fibers and stem cells",
+                        "answer": "Dense connective tissue with Type I collagen and fibroblasts",
+                        "select": "",
+                        "explain": "เยื่อหุ้มกระดูกอ่อน (Perichondrium) แบ่งเป็น 2 ชั้น ชั้นนอก (Outer fibrous layer) เป็นเนื้อเยื่อเกี่ยวพันชนิดหนาแน่น (dense collagenous CNT) ที่ประกอบด้วย Fibroblasts และเส้นใยคอลลาเจนชนิดที่ 1 ทำหน้าที่ให้ความแข็งแรงและปกป้อง ส่วนชั้นใน (Inner chondrogenic layer) จะมีเซลล์ต้นกำเนิดของกระดูกอ่อนอยู่",
+                        "state": false
+                    },
+                    {
+                        "problem": "50. In the process of bone healing, the final stage involves the remodeling of hard callus. What does this process entail?",
+                        "img": "",
+                        "choices": "Formation of a hematoma///Replacement of fibrocartilage with bone///Replacement of woven bone with lamellar bone///Invasion of blood vessels///Rapid proliferation of osteoblasts",
+                        "answer": "Replacement of woven bone with lamellar bone",
+                        "select": "",
+                        "explain": "ในระยะสุดท้ายของการซ่อมแซมกระดูก Hard callus ซึ่งเป็น Woven bone (กระดูกที่สร้างอย่างรวดเร็วและไม่เป็นระเบียบ) จะถูกปรับเปลี่ยนโครงสร้าง (remodel) โดยการทำงานร่วมกันของ Osteoclasts และ Osteoblasts เพื่อสลาย Woven bone และสร้าง Lamellar bone (กระดูกที่เจริญเต็มที่และมีความแข็งแรง) ขึ้นมาแทนที่ ทำให้กระดูกกลับมามีรูปร่างและความแข็งแรงใกล้เคียงเดิม",
+                        "state": false
+                    }
+                ],
+                "MCQ2_3_RadioPathologyClinical": [
                     {
                         "problem": "79. Red flag signs of ปวดข้อ",
                         "img": "",
@@ -5935,7 +6372,7 @@
                         "explain": "จากภาพที่เป็น open fracture อย่างรุนแรง (กระดูกหักและมีแผลเปิดขนาดใหญ่) ภาวะแทรกซ้อนที่พบบ่อยและอันตรายที่สุดคือการติดเชื้อ (Infection) เนื่องจากแผลมีการปนเปื้อนเชื้อโรคจากภายนอกโดยตรง ซึ่งอาจนำไปสู่ภาวะ osteomyelitis และภาวะแทรกซ้อนรุนแรงอื่นๆ ได้",
                         "state": false
                     }],
-                MCQ3_Pharmacology: [
+                "MCQ3_Pharmacology": [
 
                     {
                         "problem": "77. ในหัวใจมีสารอะไรที่กระตุ้น myocardial infarction, myocardial apoptosis",
@@ -6366,7 +6803,7 @@
                         "explain": "ในผู้ป่วย Acute gout ที่มีประวัติเป็นโรคแผลในกระเพาะอาหาร (peptic ulcer) ควรหลีกเลี่ยงการใช้ยา NSAIDs (เช่น Indomethacin, Celecoxib) เพราะเพิ่มความเสี่ยงเลือดออกในทางเดินอาหาร และการใช้ Prednisolone (corticosteroid) อาจทำให้ระดับน้ำตาลในเลือดสูงขึ้นในผู้ป่วยเบาหวาน ดังนั้น Colchicine จึงเป็นตัวเลือกแรกที่เหมาะสมและปลอดภัยกว่าในผู้ป่วยรายนี้",
                         "state": false
                     }],
-                MCQ3_Exercise: [
+                "MCQ3_Exercise": [
                     {
                         "problem": "68. Which exercise is appropriate for a patient on casting?",
                         "img": "",
@@ -6484,6 +6921,251 @@
                         "explain": "ท่า Towel stretch ที่ให้ผู้ป่วยจับปลายผ้าขนหนูไว้ด้านหลัง แล้วใช้แขนข้างที่ดีดึงผ้าขึ้นเพื่อรั้งให้แขนข้างที่มีปัญหา (frozen shoulder) ถูกดึงขึ้นตามแนวหลัง เป็นการออกกำลังกายเพื่อเพิ่มช่วงการเคลื่อนไหวของการหมุนแขนเข้าด้านใน (Internal rotation) โดยเฉพาะ ซึ่งเป็นท่าที่มักจะทำได้จำกัดมากที่สุดในผู้ป่วยกลุ่มนี้",
                         "state": false
                     }],
+                "MCQ3_Biomechanic": [
+                    {
+                        problem: "35. What is the definition of Elastic (Young's) modulus?",
+                        img: "",
+                        choices: "The total work (energy) absorbed up to the breaking point///Force divided by displacement.///The change in length a material undergoes during loading///The point at which the material transitions from elastic to plastic behavior///The ratio of stress to strain",
+                        answer: "The ratio of stress to strain",
+                        select: "",
+                        explain: "Elastic modulus หรือ Young's modulus (E) คือค่าที่บ่งบอกถึงความแข็งเกร็ง (stiffness) ของวัสดุ โดยนิยามจากความสัมพันธ์ของความเค้นและความเครียดในขอบเขตการเปลี่ยนแปลงแบบยืดหยุ่น (elastic region) ตามสมการ E = Stress / Strain หรือ อัตราส่วนของความเค้นต่อความเครียด",
+                        state: false
+                    },
+                    {
+                        "problem": "1. What is the definition of Stress in biomechanics?",
+                        "img": "",
+                        "choices": "The change in length of a material///The load required to deform a material///Force per unit area (F/A)///The slope of the force-displacement graph///The energy absorbed before failure",
+                        "answer": "Force per unit area (F/A)",
+                        "select": "",
+                        "explain": "ความเค้น (Stress, σ) คือปริมาณแรงภายในที่กระทำต่อหนึ่งหน่วยพื้นที่หน้าตัดของวัสดุ คำนวณจากสูตร Stress = Force / Area (F/A) ซึ่งเป็นการวัดคุณสมบัติของวัสดุโดยไม่ขึ้นกับรูปทรงเรขาคณิต",
+                        "state": false
+                    },
+                    {
+                        "problem": "2. A material that undergoes a large plastic deformation before fracturing is described as:",
+                        "img": "",
+                        "choices": "Brittle///Stiff///Tough///Ductile///Elastic",
+                        "answer": "Ductile",
+                        "select": "",
+                        "explain": "วัสดุที่มีคุณสมบัติเหนียว (Ductile) คือวัสดุที่สามารถเกิดการเปลี่ยนแปลงรูปร่างอย่างถาวร (plastic deformation) ได้มากก่อนที่จะแตกหัก เช่น เหล็กกล้าไร้สนิม (stainless steel) ในทางตรงกันข้าม วัสดุเปราะ (Brittle) จะแตกหักโดยมีการเปลี่ยนแปลงรูปร่างน้อยมาก",
+                        "state": false
+                    },
+                    {
+                        "problem": "3. The area under the stress-strain curve represents which property of a material?",
+                        "img": "",
+                        "choices": "Stiffness///Strength///Hardness///Toughness///Elasticity",
+                        "answer": "Toughness",
+                        "select": "",
+                        "explain": "ความทนทาน (Toughness) คือความสามารถของวัสดุในการดูดซับพลังงานก่อนที่จะแตกหัก ซึ่งสามารถหาค่าได้จากพื้นที่ใต้กราฟความเค้น-ความเครียด (Stress-Strain curve) วัสดุที่มีความทนทานสูงจะสามารถรับพลังงานได้มากก่อนจะเสียหาย",
+                        "state": false
+                    },
+                    {
+                        "problem": "4. According to the presentation, bone exhibits different strength and stiffness depending on the direction of the applied load. This property is known as:",
+                        "img": "",
+                        "choices": "Isotropy///Viscoelasticity///Anisotropy///Plasticity///Ductility",
+                        "answer": "Anisotropy",
+                        "select": "",
+                        "explain": "ภาวะแอนไอโซทรอปี (Anisotropy) คือคุณสมบัติของวัสดุที่มีค่าคุณสมบัติทางกล (เช่น ความแข็งแรง ความแข็งเกร็ง) แตกต่างกันไปตามทิศทางของแรงที่มากระทำ กระดูกเป็นวัสดุ anisotropic โดยจะแข็งแรงที่สุดเมื่อรับแรงในแนวแกนยาว (longitudinal)",
+                        "state": false
+                    },
+                    {
+                        "problem": "5. A metal implant like stainless steel, which has the same mechanical properties in all directions, is described as:",
+                        "img": "",
+                        "choices": "Anisotropic///Viscoelastic///Inert///Isotropic///Ductile",
+                        "answer": "Isotropic",
+                        "select": "",
+                        "explain": "วัสดุไอโซทรอปิก (Isotropic) คือวัสดุที่มีคุณสมบัติทางกลเหมือนกันในทุกทิศทาง ซึ่งเป็นลักษณะของโลหะส่วนใหญ่ที่ใช้ในการแพทย์ เช่น titanium และ stainless steel ซึ่งตรงข้ามกับกระดูกที่เป็น Anisotropic",
+                        "state": false
+                    },
+                    {
+                        "problem": "6. What is the Yield Point on a stress-strain diagram?",
+                        "img": "",
+                        "choices": "The point of fracture///The maximum stress a material can withstand///The point where the material begins to deform elastically///The point marking the transition from elastic to plastic deformation///The initial point with zero stress",
+                        "answer": "The point marking the transition from elastic to plastic deformation",
+                        "select": "",
+                        "explain": "จุดคราก (Yield Point) คือจุดบนกราฟความเค้น-ความเครียดที่วัสดุเริ่มเกิดการเปลี่ยนแปลงรูปร่างอย่างถาวร (plastic deformation) หากแรงกระทำเกินจุดนี้ วัสดุจะไม่สามารถกลับคืนสู่รูปร่างเดิมได้เมื่อปลดแรงออก",
+                        "state": false
+                    },
+                    {
+                        "problem": "7. The stiffness of a structural object like a bone or plate is represented by which parameter on a Force-Displacement graph?",
+                        "img": "",
+                        "choices": "The area under the curve///The highest point of the curve///The slope of the curve///The length of the x-axis///The point of failure",
+                        "answer": "The slope of the curve",
+                        "select": "",
+                        "explain": "ความแข็งเกร็ง (Stiffness) คือคุณสมบัติเชิงโครงสร้างที่บ่งบอกถึงความต้านทานต่อการเปลี่ยนแปลงรูปร่างเมื่อมีแรงมากระทำ สามารถหาค่าได้จากความชัน (slope) ของกราฟระหว่างแรงกับระยะการเปลี่ยนแปลงรูปร่าง (Force-Displacement curve) ยิ่งชันมาก ยิ่งแข็งเกร็งมาก",
+                        "state": false
+                    },
+                    {
+                        "problem": "8. Which type of force is bone strongest at resisting, requiring the highest load to cause failure?",
+                        "img": "",
+                        "choices": "Tension///Shear///Bending///Torsion///Compression",
+                        "answer": "Compression",
+                        "select": "",
+                        "explain": "จากข้อมูลในสไลด์ กระดูกมีความสามารถในการต้านทานแรงอัด (Compression) ได้ดีที่สุด โดยสามารถทนแรงได้ถึงประมาณ 1000 N ก่อนที่จะเสียหาย ในขณะที่ทนแรงเฉือน (Shear) ได้เพียง 250 N",
+                        "state": false
+                    },
+                    {
+                        "problem": "9. A fracture pattern caused by a pure torsional (twisting) force is typically a:",
+                        "img": "",
+                        "choices": "Transverse fracture///Oblique fracture///Butterfly fracture///Spiral fracture///Comminuted fracture",
+                        "answer": "Spiral fracture",
+                        "select": "",
+                        "explain": "แรงบิด (Torsion) จะทำให้เกิดความเค้นเฉือนสูงสุดในแนวเฉียงกับแกนยาวของกระดูก ส่งผลให้เกิดรูปแบบการแตกหักเป็นเกลียว (Spiral fracture) ซึ่งเป็นลักษณะเฉพาะของแรงชนิดนี้",
+                        "state": false
+                    },
+                    {
+                        "problem": "10. Viscoelasticity means that a material's stiffness is dependent on:",
+                        "img": "",
+                        "choices": "The temperature///The direction of the load///The loading rate///The geometry of the material///The surface coating",
+                        "answer": "The loading rate",
+                        "select": "",
+                        "explain": "คุณสมบัติหนืดและยืดหยุ่น (Viscoelasticity) คือพฤติกรรมของวัสดุที่ залежитьจากเวลา โดยเฉพาะอย่างยิ่ง ความแข็งเกร็ง (stiffness) จะขึ้นอยู่กับอัตราเร็วในการให้แรง (loading rate) เนื้อเยื่อชีวภาพ เช่น กระดูกอ่อน จะแข็งเกร็งมากขึ้นเมื่อรับแรงอย่างรวดเร็ว",
+                        "state": false
+                    },
+                    {
+                        "problem": "11. Healing with interfragmentary compression, very low strain, and no callus formation is known as:",
+                        "img": "",
+                        "choices": "Secondary bone healing///Creeping substitution///Callus remodeling///Primary bone healing///Inflammatory healing",
+                        "answer": "Primary bone healing",
+                        "select": "",
+                        "explain": "Primary bone healing หรือ Haversian remodeling เกิดขึ้นเมื่อชิ้นกระดูกที่หักสัมผัสกันสนิทและมีความมั่นคงสูงมาก (absolute stability) ทำให้มีความเครียด (strain) ที่รอยหักต่ำมาก เซลล์จะสามารถสร้างกระดูกข้ามรอยหักได้โดยตรงโดยไม่จำเป็นต้องสร้าง callus",
+                        "state": false
+                    },
+                    {
+                        "problem": "12. What biomechanical principle explains why doubling the thickness of a bone plate increases its bending stiffness eightfold?",
+                        "img": "",
+                        "choices": "Young's Modulus///Moment of Inertia///Anisotropy///Viscoelasticity///Yield Strength",
+                        "answer": "Moment of Inertia",
+                        "select": "",
+                        "explain": "ความแข็งเกร็งต่อการดัดงอ (Bending stiffness) ขึ้นอยู่กับค่า Second Moment of Inertia (I) ซึ่งสำหรับแผ่นสี่เหลี่ยมผืนผ้า คำนวณจาก I = (width x thickness³)/12 เมื่อความหนา (thickness) เพิ่มขึ้น 2 เท่า ค่า I จะเพิ่มขึ้น 2³ = 8 เท่า ทำให้ความแข็งเกร็งเพิ่มขึ้น 8 เท่า",
+                        "state": false
+                    },
+                    {
+                        "problem": "13. In the natural process of bone healing (secondary healing), what is the first tissue to form after the initial hematoma?",
+                        "img": "",
+                        "choices": "Hard callus (woven bone)///Soft callus (cartilage)///Lamellar bone///Fibrin clot and granulation tissue///Ossified cartilage",
+                        "answer": "Fibrin clot and granulation tissue",
+                        "select": "",
+                        "explain": "ตามลำดับขั้นการหายของกระดูก ในระยะอักเสบ (Inflammatory Phase) ซึ่งเกิดทันทีหลังกระดูกหัก จะมีการสร้างก้อนเลือด (hematoma) ตามมาด้วยการเกิดลิ่มเลือดไฟบริน (fibrin clot) และเนื้อเยื่ออ่อน (granulation tissue) ก่อนที่จะพัฒนาไปเป็น soft callus ในระยะต่อไป",
+                        "state": false
+                    },
+                    {
+                        "problem": "14. A butterfly fragment in a fracture is typically caused by which combination of forces?",
+                        "img": "",
+                        "choices": "Pure tension///Pure torsion///Pure shear///Compression and bending///Tension and torsion",
+                        "answer": "Compression and bending",
+                        "select": "",
+                        "explain": "แรงดัดงอ (Bending) จะทำให้เกิดแรงดึง (tension) ที่ผิวด้านนูน (convex) และแรงอัด (compression) ที่ผิวด้านเว้า (concave) เมื่อแรงอัดมีขนาดมากพอ จะทำให้เกิดรอยแตกเฉียงและทำให้ชิ้นกระดูกรูปสามเหลี่ยมหรือรูปลิ่มคล้ายผีเสื้อ (butterfly fragment) หลุดออกมาทางด้านที่ถูกกด",
+                        "state": false
+                    },
+                    {
+                        "problem": "15. Why does a hollow intramedullary nail have nearly the same bending resistance as a solid nail of the same outer diameter?",
+                        "img": "",
+                        "choices": "Because the center of the nail contributes little to bending stiffness///Because the hollow nail is made of a stronger material///Because the hollow nail is heavier///Because stress is concentrated only on the surface///Because Young's modulus is higher in a hollow nail",
+                        "answer": "Because the center of the nail contributes little to bending stiffness",
+                        "select": "",
+                        "explain": "ความต้านทานต่อการดัดงอ (bending resistance) ขึ้นอยู่กับค่า Moment of Inertia ซึ่งวัสดุที่อยู่ไกลจากแกนกลาง (neutral axis) จะมีผลต่อค่านี้มากที่สุด ดังนั้นวัสดุที่อยู่ตรงกลางจึงมีผลน้อยมาก การนำส่วนกลางออกเพื่อทำเป็นตะปูแบบกลวงจึงลดน้ำหนักได้มากโดยลดความแข็งเกร็งลงเพียงเล็กน้อย",
+                        "state": false
+                    },
+                    {
+                        "problem": "16. Which of the following is an example of a 'Brittle' material according to the presentation?",
+                        "img": "",
+                        "choices": "Stainless steel///Nylon///PMMA (bone cement)///Copper///Ligament",
+                        "answer": "PMMA (bone cement)",
+                        "select": "",
+                        "explain": "วัสดุเปราะ (Brittle) คือวัสดุที่แตกหักโดยมีการเปลี่ยนแปลงรูปร่างน้อยมากหรือไม่เกิดเลย ในสไลด์ได้ยกตัวอย่าง Polymethyl methacrylate (PMMA) หรือซีเมนต์กระดูก, ชอล์ก, และเซรามิก ว่าเป็นวัสดุเปราะ",
+                        "state": false
+                    },
+                    {
+                        "problem": "17. A type of biocompatibility where a material is designed to elicit a specific biological response, such as titanium porous coating for bone ingrowth, is called:",
+                        "img": "",
+                        "choices": "Inert///Interactive///Viable///Anisotropic///Isotropic",
+                        "answer": "Interactive",
+                        "select": "",
+                        "explain": "วัสดุแบบ Interactive ถูกออกแบบมาให้มีปฏิกิริยาตอบสนองกับร่างกายในทางที่ต้องการ เช่น การเคลือบผิวพรุน (porous coating) บนวัสดุไทเทเนียม เพื่อกระตุ้นให้เนื้อกระดูกเจริญเติบโตเข้าไปยึดเกาะ ทำให้การยึดติดมีความมั่นคงมากขึ้น",
+                        "state": false
+                    },
+                    {
+                        "problem": "18. Secondary bone healing, which involves callus formation, occurs under which condition of stability?",
+                        "img": "",
+                        "choices": "Absolute stability///No stability///Relative stability (micromotion)///Dynamic stability///Static stability",
+                        "answer": "Relative stability (micromotion)",
+                        "select": "",
+                        "explain": "การหายของกระดูกแบบทุติยภูมิ (Secondary bone healing) ซึ่งเป็นกระบวนการตามธรรมชาติ จะเกิดขึ้นเมื่อรอยหักมีความมั่นคงแบบสัมพัทธ์ (relative stability) คือมีการขยับเล็กน้อย (micromotion) ซึ่งการขยับนี้จะกระตุ้นการสร้าง callus เพื่อเพิ่มความมั่นคงให้กับรอยหัก",
+                        "state": false
+                    },
+                    {
+                        "problem": "19. The final phase of bone healing, where woven bone is replaced by stronger lamellar bone, is called:",
+                        "img": "",
+                        "choices": "Inflammatory Phase///Reparative Phase///Remodeling Phase///Creeping Substitution///Primary Healing",
+                        "answer": "Remodeling Phase",
+                        "select": "",
+                        "explain": "ในระยะปรับเปลี่ยนโครงสร้าง (Remodeling Phase) ซึ่งเป็นระยะสุดท้ายและใช้เวลานานเป็นเดือนถึงปี Hard callus ซึ่งเป็น woven bone ที่ยังไม่แข็งแรงสมบูรณ์ จะถูกปรับเปลี่ยนโครงสร้างโดยการทำงานของ osteoclasts และ osteoblasts ให้กลายเป็น lamellar bone ที่มีการจัดเรียงตัวเป็นระเบียบและแข็งแรงกว่า",
+                        "state": false
+                    },
+                    {
+                        "problem": "20. What is 'Strain' in biomechanics?",
+                        "img": "",
+                        "choices": "Force per unit area///The ratio of stress to stiffness///The total energy absorbed///The change in length divided by the original length (ΔL/L)///The maximum functional load",
+                        "answer": "The change in length divided by the original length (ΔL/L)",
+                        "select": "",
+                        "explain": "ความเครียด (Strain, ε) คือการวัดการเปลี่ยนแปลงรูปร่างของวัสดุเทียบกับขนาดดั้งเดิม เป็นค่าที่ไม่มีหน่วย คำนวณจากอัตราส่วนของการเปลี่ยนแปลงความยาวต่อความยาวเดิม (ΔL/L)",
+                        "state": false
+                    },
+                    {
+                        "problem": "21. A slow application of force to a ligament is more likely to cause a ligament tear, whereas a fast force application is more likely to cause:",
+                        "img": "",
+                        "choices": "A spiral fracture///A complete dislocation///An avulsion fracture///A transverse fracture///No injury",
+                        "answer": "An avulsion fracture",
+                        "select": "",
+                        "explain": "เนื่องจากคุณสมบัติ Viscoelasticity ที่ทำให้เอ็น (ligament) และกระดูกแข็งเกร็งขึ้นเมื่อรับแรงเร็วๆ เมื่อมีแรงกระทำอย่างรวดเร็ว เอ็นจะแข็งแรงจนสามารถดึงชิ้นกระดูกตรงจุดเกาะให้หลุดออกมาได้ (avulsion fracture) แทนที่เอ็นจะฉีกขาดเอง",
+                        "state": false
+                    },
+                    {
+                        "problem": "22. The term 'material properties' refers to the behavior of a substance:",
+                        "img": "",
+                        "choices": "Depending only on its shape and size///Without considering the geometry of its structure///Only in the plastic region///Related to its biocompatibility///Only when it is loaded quickly",
+                        "answer": "Without considering the geometry of its structure",
+                        "select": "",
+                        "explain": "คุณสมบัติของวัสดุ (Material properties) เช่น Young's modulus, Yield strength เป็นคุณสมบัติภายในของตัววัสดุเอง โดยไม่ขึ้นอยู่กับขนาดหรือรูปทรงเรขาคณิตของชิ้นงานนั้นๆ ซึ่งต่างจากคุณสมบัติเชิงโครงสร้าง (Structural properties) เช่น Stiffness ที่ขึ้นกับรูปทรงด้วย",
+                        "state": false
+                    },
+                    {
+                        "problem": "23. In fracture fixation, what is the role of a 'lever arm'?",
+                        "img": "",
+                        "choices": "It determines the toughness of the implant///It magnifies the force needed for reduction///The longer the lever arm, the smaller the bending moment at the fracture///The distance from a pivot point at which a force is applied to create a moment///It describes the material's elasticity",
+                        "answer": "The distance from a pivot point at which a force is applied to create a moment",
+                        "select": "",
+                        "explain": "แขนของคาน (Lever arm) คือระยะทางจากจุดหมุนไปยังแนวแรงที่มากระทำ ใช้ในการคำนวณโมเมนต์ (Moment = Force x Lever arm) ในบริบทของกระดูกหัก แขนของคานที่ยาวขึ้นจะทำให้เกิดโมเมนต์ดัดงอที่สูงขึ้นที่รอยหัก",
+                        "state": false
+                    },
+                    {
+                        "problem": "24. Comparing a periosteal (extramedullary) callus to an endosteal callus of the same thickness, which provides more stability against bending?",
+                        "img": "",
+                        "choices": "Endosteal callus///Periosteal callus///Both provide equal stability///Neither provides significant stability///Stability depends on the material, not location",
+                        "answer": "Periosteal callus",
+                        "select": "",
+                        "explain": "Periosteal callus อยู่ด้านนอกและไกลจากแกนกลาง (neutral axis) ของกระดูกมากกว่า Endosteal callus ที่อยู่ด้านใน ตามหลักการของ Moment of Inertia วัสดุที่อยู่ไกลจากแกนกลางจะมีส่วนช่วยในการต้านทานการดัดงอได้มากกว่า ดังนั้น periosteal callus จึงให้ความมั่นคง (bending stiffness) มากกว่าอย่างมีนัยสำคัญ",
+                        "state": false
+                    },
+                    {
+                        "problem": "25. Which biomaterial is shown to have the highest Young's Modulus (stiffness) from the table in the presentation?",
+                        "img": "",
+                        "choices": "Titanium alloy///UHMW polyethylene///Cortical bone///Stainless steel///Ligament",
+                        "answer": "Stainless steel",
+                        "select": "",
+                        "explain": "จากตาราง 'Representative Values of Material Properties' ในสไลด์ Stainless steel มีค่า Young's Modulus สูงที่สุดคือ 200 GPa ซึ่งหมายความว่าเป็นวัสดุที่มีความแข็งเกร็ง (stiff) มากที่สุดในกลุ่มตัวเลือก รองลงมาคือ Titanium alloy (110 GPa)",
+                        "state": false
+                    },
+                    {
+                        "problem": "A person is holding a 10 kg dumbbell in their hand. The distance from their elbow joint (pivot) to the dumbbell is 35 cm, and the biceps muscle attaches to the forearm at a distance of 5 cm from the elbow joint. Assuming the forearm is horizontal and ignoring its weight, what is the upward force (Fm) the biceps muscle must exert to hold the dumbbell steady?",
+                        "img": "",
+                        "choices": "20 N///70 N///350 N///700 N///3500 N",
+                        "answer": "700 N",
+                        "select": "",
+                        "explain": "หลักการคือในสภาวะสมดุล โมเมนต์ตามเข็มนาฬิกาจะเท่ากับโมเมนต์ทวนเข็มนาฬิกา (ΣM = 0) โดยมีข้อศอกเป็นจุดหมุน (pivot).\n1. คำนวณแรงจากดัมเบล (Load, L): L = mass × g ≈ 10 kg × 10 m/s² = 100 N.\n2. คำนวณโมเมนต์ตามเข็มนาฬิกา (เกิดจากดัมเบล): Moment_load = Force × distance = 100 N × 0.35 m = 35 N·m.\n3. คำนวณโมเมนต์ทวนเข็มนาฬิกา (เกิดจากแรงกล้ามเนื้อ, Fm): Moment_muscle = Fm × distance = Fm × 0.05 m.\n4. ตั้งสมการให้โมเมนต์สมดุล: Moment_muscle = Moment_load. ดังนั้น Fm × 0.05 m = 35 N·m.\n5. แก้สมการหา Fm: Fm = 35 N·m / 0.05 m = 700 N. \nดังนั้น กล้ามเนื้อไบเซ็ปส์ต้องออกแรงถึง 700 N เพื่อยกดัมเบล 100 N เนื่องจากแขนของแรงกล้ามเนื้อสั้นกว่าแขนของแรงจากน้ำหนักมาก",
+                        "state": false
+                    }
+                ],
                 "MSALLMCQ2": [
                     // --- MS51MCQ1
                     {
@@ -12536,7 +13218,7 @@
                     questionSets.push(quizdata[key]);
                 }
             }
-            const checkboxIds = ['msfmt2', 'msfmt1', 'msmcq1drop', 'msmcq1', 'msmcq2_anatomy', 'msmcq2_embryo', 'msmcq2_microanatomy', 'msmcq23_pathology', 'msmcq3_pharmacology', 'msmcq3_exercise', 'msmcq2', 'ms51mcq1', 'ms50mcq1', 'ms49mcq1', 'ms51mcq2', 'ms50mcq2', 'ms49mcq2'];
+            const checkboxIds = ['msfmt2', 'msfmt1', 'msmcq1drop', 'msmcq1', 'msmcq2_anatomy', 'msmcq2_embryo', 'msmcq2_microanatomy', 'msmcq23_pathology', 'msmcq3_pharmacology', 'msmcq3_exercise', 'msmcq3_biomechanic', 'msmcq2', 'ms51mcq1', 'ms50mcq1', 'ms49mcq1', 'ms51mcq2', 'ms50mcq2', 'ms49mcq2'];
 
             allQuestions = questionSets.flat(); // Master list of all questions
 

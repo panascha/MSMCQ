@@ -4339,7 +4339,8 @@ var quizdata = {
             "select": "",
             "explain": "Endochondral ossification คือกระบวนการสร้างกระดูกยาว (long bones) โดยมีต้นแบบ (model) มาจากกระดูกอ่อนชนิด Hyaline cartilage ซึ่งจะค่อยๆ ถูกแทนที่ด้วยเนื้อกระดูก ส่วน intramembranous ossification จะเป็นการสร้างกระดูกจาก mesenchymal tissue โดยตรง เช่น กระดูกกะโหลกศีรษะ",
             "state": false
-        }],
+        },
+    ],
     MCQ2_3_RadioPathologyClinical: [
         {
             "problem": "79. Red flag signs of ปวดข้อ",

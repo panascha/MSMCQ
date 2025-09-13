@@ -1,5 +1,23 @@
 "MAYBEINOTHERSYSTEM" = [
     {
+        "problem": "X3. An inferior alveolar nerve block involves injecting anesthetic near the mandibular foramen. Which nerve is the primary target of this injection?",
+        "img": "",
+        "choices": "Inferior alveolar nerve///Lingual nerve///Buccal nerve///Mental nerve///Mylohyoid nerve",
+        "answer": "Inferior alveolar nerve",
+        "select": "",
+        "explain": "การฉีดยาชาเพื่อระงับความรู้สึกของฟันกรามล่าง (Inferior alveolar nerve block) มีเป้าหมายที่ Inferior alveolar nerve ซึ่งเป็นแขนงของ Mandibular nerve (V3) ก่อนที่เส้นประสาทนี้จะเข้าไปในรู Mandibular foramen เพื่อไปเลี้ยงฟัน, เหงือก, ริมฝีปากล่าง และคาง",
+        "state": false
+    },
+    {
+        "problem": "29. A 24 year-old is evaluated for airway obstruction. Upon palpation, the Cricoid cartilage is at which vertebrae level?",
+        "img": "",
+        "choices": "C2///C3///C4///C7///C6",
+        "answer": "C6",
+        "select": "",
+        "explain": "Cricoid cartilage เป็นกระดูกอ่อนรูปวงแหวนที่อยู่ใต้ thyroid cartilage และเป็น landmark ที่สำคัญทางกายวิภาค. ระดับของ cricoid cartilage จะตรงกับระดับของกระดูกสันหลังส่วนคอชิ้นที่ 6 (C6 vertebra). การทราบ landmark นี้มีประโยชน์ในการทำหัตถการเกี่ยวกับทางเดินหายใจ เช่น cricothyrotomy",
+        "state": false
+    },
+    {
         "problem": "41. loss of sensation at lower lip and chin ถามว่า nerve ไหนน่าจะเกิด damage?",
         "img": "",
         "choices": "Auriculotemporal n.///Mental n.///Transverse cervical n.///Buccal n.///Infraorbital n.",
