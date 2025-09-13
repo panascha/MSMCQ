@@ -94,9 +94,9 @@ var quizdata = {
             problem: "11. A rock climber falls on his left shoulder, resulting in a fracture of the lesser tubercle of the humerus. Which of the following structures would most likely have functional damage?",
             img: "",
             choices: "Subscapularis///Teres minor///Supraspinatus///Trapezius///Latissimus dorsi",
-            answer: "Teres minor",
+            answer: "Subscapularis",
             select: "",
-            explain: "Formative  เฉลยแบบนี้",
+            explain: "Subscapularis เป็นกล้ามเนื้อที่เกาะที่ lesser tubercle ของ humerus และทำหน้าที่ medial rotation ของแขน การบาดเจ็บที่ lesser tubercle จึงมีแนวโน้มที่จะทำให้กล้ามเนื้อมัดนี้เสียหายได้มากที่สุด",
             state: false
         },
         {
@@ -502,9 +502,9 @@ var quizdata = {
             "problem": "7. Baseball player was hit by the baseball and came to the hospital with an epidural hematoma. Which bone is intact?",
             "img": "",
             "choices": "Zygomatic bone///Sphenoid bone///Temporal bone///Frontal bone///Parietal bone",
-            "answer": "Sphenoid bone",
+            "answer": "Zygomatic bone",
             "select": "",
-            "explain": "กระดูก Sphenoid เป็นกระดูกที่อยู่ภายในกะโหลกศีรษะ (skull) และมีลักษณะคล้ายผีเสื้อ (butterfly-shaped) โดยอยู่ระหว่างกระดูก Frontal, Temporal, และ Parietal กระดูกนี้มักจะไม่แตกหักในกรณีที่มีการบาดเจ็บที่ศีรษะจากการกระแทกเบาๆ แต่จะมีโอกาสสูงที่จะเกิดการบาดเจ็บที่กระดูกอื่นๆ เช่น Temporal หรือ Parietal",
+            "explain": "Zygomatic bone หรือกระดูกโหนกแก้ม เป็นกระดูกที่อยู่บริเวณโหนกแก้ม (cheekbone) และมีลักษณะเป็นรูปสี่เหลี่ยมผืนผ้า (rectangular) โดยอยู่ระหว่างกระดูก Maxilla และ Temporal bone กระดูกนี้มักจะไม่แตกหักในกรณีที่มีการบาดเจ็บที่ศีรษะจากการกระแทกเบาๆ แต่จะมีโอกาสสูงที่จะเกิดการบาดเจ็บที่กระดูกอื่นๆ เช่น Temporal หรือ Parietal",
             "state": false
         },
         {
@@ -771,13 +771,13 @@ var quizdata = {
             "state": false
         },
         {
-            "problem": "11. A rock climber falls on his left shoulder, resulting in a fracture of the lesser tubercle of the humerus. Which of the following structures would most likely have functional damage?",
-            "img": "",
-            "choices": "Subscapularis///Teres minor///Supraspinatus///Trapezius///Latissimus dorsi",
-            "answer": "Teres minor",
-            "select": "",
-            "explain": "Formative  เฉลยแบบนี้",
-            "state": false
+            problem: "11. A rock climber falls on his left shoulder, resulting in a fracture of the lesser tubercle of the humerus. Which of the following structures would most likely have functional damage?",
+            img: "",
+            choices: "Subscapularis///Teres minor///Supraspinatus///Trapezius///Latissimus dorsi",
+            answer: "Subscapularis",
+            select: "",
+            explain: "Subscapularis เป็นกล้ามเนื้อที่เกาะที่ lesser tubercle ของ humerus และทำหน้าที่ medial rotation ของแขน การบาดเจ็บที่ lesser tubercle จึงมีแนวโน้มที่จะทำให้กล้ามเนื้อมัดนี้เสียหายได้มากที่สุด",
+            state: false
         },
         {
             "problem": "13. Which group of lymph nodes is most commonly involved in breast cancer metastasis?",
@@ -882,7 +882,7 @@ var quizdata = {
             "problem": "32) โดนแทงที่ posterior axilla boarder nerve ไหนได้รับผลกระทบ?",
             "img": "",
             "choices": "Axillary nerve///Intercostal nerve///Thoracodorsal nerve///Musculocutaneous nerve///Median nerve",
-            "answer": "Axillary nerve",
+            "answer": "Thoracodorsal nerve",
             "select": "",
             "explain": "Posterior axillary border เป็นที่อยู่ของเส้นประสาทสำคัญคือ Axillary nerve และ Thoracodorsal nerve โดย Axillary nerve จะวิ่งผ่าน quadrangular space ซึ่งอยู่ในบริเวณนี้ ทำให้มีความเสี่ยงสูงต่อการบาดเจ็บจากการถูกแทง (stab wound) การบาดเจ็บของ Axillary nerve จะทำให้กล้ามเนื้อ Deltoid อ่อนแรง",
             "state": false
@@ -1818,9 +1818,9 @@ var quizdata = {
             problem: "11. A rock climber falls on his left shoulder, resulting in a fracture of the lesser tubercle of the humerus. Which of the following structures would most likely have functional damage?",
             img: "",
             choices: "Subscapularis///Teres minor///Supraspinatus///Trapezius///Latissimus dorsi",
-            answer: "Teres minor",
+            answer: "Subscapularis",
             select: "",
-            explain: "Formative  เฉลยแบบนี้",
+            explain: "Subscapularis เป็นกล้ามเนื้อที่เกาะที่ lesser tubercle ของ humerus และทำหน้าที่ medial rotation ของแขน การบาดเจ็บที่ lesser tubercle จึงมีแนวโน้มที่จะทำให้กล้ามเนื้อมัดนี้เสียหายได้มากที่สุด",
             state: false
         },
         {
@@ -2225,7 +2225,7 @@ var quizdata = {
             "problem": "32) โดนแทงที่ posterior axilla boarder nerve ไหนได้รับผลกระทบ?",
             "img": "",
             "choices": "Axillary nerve///Intercostal nerve///Thoracodorsal nerve///Musculocutaneous nerve///Median nerve",
-            "answer": "Axillary nerve",
+            "answer": "Thoracodorsal nerve",
             "select": "",
             "explain": "Posterior axillary border เป็นที่อยู่ของเส้นประสาทสำคัญคือ Axillary nerve และ Thoracodorsal nerve โดย Axillary nerve จะวิ่งผ่าน quadrangular space ซึ่งอยู่ในบริเวณนี้ ทำให้มีความเสี่ยงสูงต่อการบาดเจ็บจากการถูกแทง (stab wound) การบาดเจ็บของ Axillary nerve จะทำให้กล้ามเนื้อ Deltoid อ่อนแรง",
             "state": false
@@ -2614,9 +2614,9 @@ var quizdata = {
             "problem": "7. Baseball player was hit by the baseball and came to the hospital with an epidural hematoma. Which bone is intact?",
             "img": "",
             "choices": "Zygomatic bone///Sphenoid bone///Temporal bone///Frontal bone///Parietal bone",
-            "answer": "Sphenoid bone",
+            "answer": "Zygomatic bone",
             "select": "",
-            "explain": "กระดูก Sphenoid เป็นกระดูกที่อยู่ภายในกะโหลกศีรษะ (skull) และมีลักษณะคล้ายผีเสื้อ (butterfly-shaped) โดยอยู่ระหว่างกระดูก Frontal, Temporal, และ Parietal กระดูกนี้มักจะไม่แตกหักในกรณีที่มีการบาดเจ็บที่ศีรษะจากการกระแทกเบาๆ แต่จะมีโอกาสสูงที่จะเกิดการบาดเจ็บที่กระดูกอื่นๆ เช่น Temporal หรือ Parietal",
+            "explain": "Zygomatic bone หรือกระดูกโหนกแก้ม เป็นกระดูกที่อยู่บริเวณโหนกแก้ม (cheekbone) และมีลักษณะเป็นรูปสี่เหลี่ยมผืนผ้า (rectangular) โดยอยู่ระหว่างกระดูก Maxilla และ Temporal bone กระดูกนี้มักจะไม่แตกหักในกรณีที่มีการบาดเจ็บที่ศีรษะจากการกระแทกเบาๆ แต่จะมีโอกาสสูงที่จะเกิดการบาดเจ็บที่กระดูกอื่นๆ เช่น Temporal หรือ Parietal",
             "state": false
         },
         {
@@ -5150,9 +5150,9 @@ var quizdata = {
             "problem": "55. A 15-year-old boy has pain in his knee. What is the diagnosis according to the X-ray film?",
             "img": "https://drive.google.com/open?id=1RDOqRFJJ1-YlMU682TjertjQuc7AV0bo&usp=drive_copy",
             "choices": "Osteosarcoma///Enchondroma///Osteochondroma///Osteophyte///Chondrosarcoma",
-            "answer": "Osteosarcoma",
+            "answer": "Osteochondroma",
             "select": "",
-            "explain": "ภาพ X-ray แสดงลักษณะของรอยโรคในกระดูกบริเวณ metaphysis ของ distal femur ซึ่งเป็นตำแหน่งที่พบบ่อยของ Osteosarcoma ลักษณะของรอยโรคมีการทำลายกระดูกแบบ permeative และมีปฏิกิริยาของ periosteum ที่เรียกว่า Codman's triangle และ Sunburst appearance ซึ่งเป็นลักษณะที่บ่งชี้ถึงเนื้องอกกระดูกชนิดร้ายแรงอย่าง Osteosarcoma ซึ่งพบบ่อยในวัยรุ่น",
+            "explain": "ภาพ X-ray แสดงลักษณะของ Osteochondroma ซึ่งเป็นเนื้องอกกระดูกชนิดที่พบบ่อยที่สุด (benign bone tumor) มักเกิดในเด็กและวัยรุ่น พบได้บ่อยที่ metaphysis ของกระดูกยาว เช่น femur และ tibia ลักษณะเด่นคือมีการเจริญเติบโตของกระดูกและกระดูกอ่อน (cartilage cap) ออกมานอกผิวกระดูกปกติ",
             "state": false
         },
         {
@@ -6479,9 +6479,9 @@ var quizdata = {
             "problem": "7. Baseball player was hit by the baseball and came to the hospital with an epidural hematoma. Which bone is intact?",
             "img": "",
             "choices": "Zygomatic bone///Sphenoid bone///Temporal bone///Frontal bone///Parietal bone",
-            "answer": "Sphenoid bone",
+            "answer": "Zygomatic bone",
             "select": "",
-            "explain": "กระดูก Sphenoid เป็นกระดูกที่อยู่ภายในกะโหลกศีรษะ (skull) และมีลักษณะคล้ายผีเสื้อ (butterfly-shaped) โดยอยู่ระหว่างกระดูก Frontal, Temporal, และ Parietal กระดูกนี้มักจะไม่แตกหักในกรณีที่มีการบาดเจ็บที่ศีรษะจากการกระแทกเบาๆ แต่จะมีโอกาสสูงที่จะเกิดการบาดเจ็บที่กระดูกอื่นๆ เช่น Temporal หรือ Parietal",
+            "explain": "Zygomatic bone หรือกระดูกโหนกแก้ม เป็นกระดูกที่อยู่บริเวณโหนกแก้ม (cheekbone) และมีลักษณะเป็นรูปสี่เหลี่ยมผืนผ้า (rectangular) โดยอยู่ระหว่างกระดูก Maxilla และ Temporal bone กระดูกนี้มักจะไม่แตกหักในกรณีที่มีการบาดเจ็บที่ศีรษะจากการกระแทกเบาๆ แต่จะมีโอกาสสูงที่จะเกิดการบาดเจ็บที่กระดูกอื่นๆ เช่น Temporal หรือ Parietal",
             "state": false
         },
         {
@@ -7561,9 +7561,9 @@ var quizdata = {
             "problem": "55. A 15-year-old boy has pain in his knee. What is the diagnosis according to the X-ray film?",
             "img": "https://drive.google.com/open?id=1RDOqRFJJ1-YlMU682TjertjQuc7AV0bo&usp=drive_copy",
             "choices": "Osteosarcoma///Enchondroma///Osteochondroma///Osteophyte///Chondrosarcoma",
-            "answer": "Osteosarcoma",
+            "answer": "Osteochondroma",
             "select": "",
-            "explain": "ภาพ X-ray แสดงลักษณะของรอยโรคในกระดูกบริเวณ metaphysis ของ distal femur ซึ่งเป็นตำแหน่งที่พบบ่อยของ Osteosarcoma ลักษณะของรอยโรคมีการทำลายกระดูกแบบ permeative และมีปฏิกิริยาของ periosteum ที่เรียกว่า Codman's triangle และ Sunburst appearance ซึ่งเป็นลักษณะที่บ่งชี้ถึงเนื้องอกกระดูกชนิดร้ายแรงอย่าง Osteosarcoma ซึ่งพบบ่อยในวัยรุ่น",
+            "explain": "ภาพ X-ray แสดงลักษณะของ Osteochondroma ซึ่งเป็นเนื้องอกกระดูกชนิดที่พบบ่อยที่สุด (benign bone tumor) มักเกิดในเด็กและวัยรุ่น พบได้บ่อยที่ metaphysis ของกระดูกยาว เช่น femur และ tibia ลักษณะเด่นคือมีการเจริญเติบโตของกระดูกและกระดูกอ่อน (cartilage cap) ออกมานอกผิวกระดูกปกติ",
             "state": false
         },
         {
