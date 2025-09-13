@@ -912,9 +912,9 @@
                         problem: "30. In the figure shows the mechanism of drug A, what is drug A?",
                         img: "https://drive.google.com/open?id=1xwcgd3QeLHb0B5-4_EoIKcpaOQ1xu6eE&usp=drive_copy",
                         choices: "Orphenadrine///Cyclobenzaprine///Diazepam///Baclofen///Dantrolene",
-                        answer: "Diazepam",
+                        answer: "Baclofen",
                         select: "",
-                        explain: "จากแผนภาพ Drug A ออกฤทธิ์ที่ GABAA receptor ซึ่งเป็นตำแหน่งที่ยาในกลุ่ม Benzodiazepines เช่น Diazepam ออกฤทธิ์ โดยจะไปเสริมการทำงานของสารสื่อประสาท GABA ซึ่งเป็น inhibitory neurotransmitter ทำให้เกิดการยับยั้งเซลล์ประสาทสั่งการ (motor neuron) มากขึ้น ส่งผลให้กล้ามเนื้อคลายตัว ส่วน Baclofen ออกฤทธิ์ที่ GABAB receptor และ Dantrolene ออกฤทธิ์ที่กล้ามเนื้อโดยตรง",
+                        explain: "จากภาพแสดงกลไกการออกฤทธิ์ของยา Baclofen ซึ่งเป็น GABA-B receptor agonist ที่ทำให้เกิดการเปิดช่องโพแทสเซียม (K+) และปิดช่องแคลเซียม (Ca2+) ที่ปลายประสาท ทำให้ลดการหลั่งสารสื่อประสาท excitatory เช่น Glutamate และ Substance P จึงช่วยลดอาการเกร็งของกล้ามเนื้อ (muscle spasticity) ได้",
                         state: false
                     },
                     {
@@ -12867,7 +12867,7 @@
 
                 // --- 4. PDF HEADER ---
                 doc.setFontSize(20);
-                doc.text("MDKKUQUIZ - ชุดข้อสอบสำหรับทบทวน", pageWidth / 2, y, { align: 'center' });
+                doc.text("MDKKUQUIZ - ชุดข้อสอบสำหรับทบทวน [เฉลยอยู่ท้ายไฟล์]", pageWidth / 2, y, { align: 'center' });
                 y += lineHeight * 1.5;
 
                 doc.setFontSize(16);
